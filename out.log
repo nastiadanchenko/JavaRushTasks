@@ -28257,3 +28257,34 @@ java.lang.NullPointerException
 2020-03-21 19:23:37 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
 2020-03-21 19:23:37 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
 2020-03-21 19:23:38 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-03-23 16:21:39 INFO  PluginTasksProjectComponent.projectOpened(77) - ---------- Project opened ----------
+2020-03-23 16:21:39 INFO  PluginTasksProjectComponent.projectOpened(78) - ---------- Version 3.37 ----------
+
+2020-03-23 16:21:39 INFO  PluginTasksProjectComponent.setAutoscrolls(366) - Autoscrolls successfully set
+2020-03-23 16:21:40 INFO  ApacheHttpClient.createAsyncHttpClient(143) - 1 proxies selected. Type: DIRECT
+2020-03-23 16:21:40 INFO  ApacheHttpClient.<init>(94) - ApacheHttpClient was successfully instantiated.
+2020-03-23 16:21:58 INFO  ApacheHttpClient.testConnection(201) - responseCode = 200
+2020-03-23 16:21:58 INFO  ApacheHttpClient.testConnection(216) - result = true
+2020-03-23 16:22:00 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(593) - Waiting for server response.
+2020-03-23 16:22:00 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(593) - Waiting for server response.
+2020-03-23 16:22:00 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(593) - Waiting for server response.
+2020-03-23 16:22:01 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(593) - Waiting for server response.
+2020-03-23 16:22:01 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(593) - Waiting for server response.
+2020-03-23 16:22:01 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(593) - Waiting for server response.
+2020-03-23 16:22:01 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(593) - Waiting for server response.
+2020-03-23 16:22:01 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(593) - Waiting for server response.
+2020-03-23 16:22:02 INFO  ApacheHttpClient.refreshUserInfo(301) - responseCode = 200
+2020-03-23 16:22:02 INFO  ApacheHttpClient.refreshUserInfo(307) - User information received.
+2020-03-23 16:22:02 INFO  ApacheHttpClient.startGA(35) - GAService started.
+2020-03-23 16:22:02 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2020-03-23 16:22:07 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-03-23 16:23:06 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-03-23 16:23:06 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-03-23 16:23:07 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-03-23 16:23:08 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-03-23 16:23:08 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-03-23 16:23:08 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-03-23 16:23:52 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-03-23 16:25:02 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-03-23 16:26:02 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-03-23 16:27:02 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
