@@ -23,7 +23,15 @@ public class Solution {
         ArrayList<String> resultStrings = new ArrayList<String>();
         for (int i = 0; i < strings.size(); i++) {
             String string = strings.get(i);
-            resultStrings.add(string.toUpperCase());
+            int n;
+            String s = "";
+            if (string.length() % 2 == 0) n = 2;
+            else n = 3;
+
+            for (int j = 0; j < n; j++) {
+                s += string + " ";
+            }
+            resultStrings.add(s);
         }
 
         for (int i = 0; i < resultStrings.size(); i++) {

@@ -29,7 +29,7 @@ public class Solution {
         System.out.println(Arrays.toString(list2));
         for (String text : list
                 ) {
-            if (list2[0].equals(text) || list2[9].equals(text) ) { 
+            if (list2[0].equals(text) || list2[9].equals(text) ) {
                 System.out.println(text);
                 break;
             } /*if (text.equals(list2[9])) {
