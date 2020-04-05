@@ -1,4 +1,4 @@
-package com.javarush.task.task08.task0820;
+package task08.task0820;
 
 import java.util.HashSet;
 import java.util.Objects;
