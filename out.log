@@ -46022,3 +46022,16 @@ Caused by: java.net.ConnectException: Connection timed out: no further informati
 2020-04-05 12:17:14 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
 2020-04-05 12:18:14 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
 2020-04-05 12:19:14 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-04-05 12:20:14 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-04-05 12:21:14 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-04-05 12:22:18 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-04-05 12:23:14 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-04-05 12:24:20 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-04-05 12:25:17 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-04-05 12:26:18 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-04-05 12:27:15 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-04-05 12:28:20 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-04-05 12:29:15 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-04-05 12:30:14 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-04-05 12:31:14 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-04-05 12:32:15 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
