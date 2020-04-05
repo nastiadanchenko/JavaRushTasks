@@ -4,7 +4,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /* 
 Модернизация ПО
@@ -13,21 +15,21 @@ import java.util.List;
 public class Solution {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-
-        List<String> list = new ArrayList<>();
+        int i = 0;
+        Map<String,String> list = new HashMap<>();
         while (true) {
             String family = reader.readLine();
             if (family.isEmpty()) {
                 break;
             }
 
-            list.add(family);
+            list.put(family,"City"+i++);
         }
 
         // Read the house number
-        int houseNumber = Integer.parseInt(reader.readLine());
+        String city = reader.readLine();
 
-        if (0 <= houseNumber && houseNumber < list.size()) {
+        if (city.equals(list.) && houseNumber < list.size()) {
             String familyName = list.get(houseNumber);
             System.out.println(familyName);
         }
