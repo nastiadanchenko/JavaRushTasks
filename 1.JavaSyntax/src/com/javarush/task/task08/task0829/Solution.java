@@ -24,14 +24,14 @@ public class Solution {
             list.add(family);
         }
 
-        // Read the house number
+        // Read the house number Проверка
         String city = reader.readLine();
         System.out.println(list.get(list.indexOf(city)+1));
         /*
         if (0 <= houseNumber && houseNumber < list.size()) {
             String familyName = list.get(houseNumber);
             System.out.println(familyName);
-        
+        }
         }*/
     }
 }
