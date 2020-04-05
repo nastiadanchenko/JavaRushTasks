@@ -22,7 +22,7 @@ public class Solution {
         }
         if(o instanceof Lamp){
             System.out.println("Лампа");
-        } 
+        }
         if(o instanceof Dog){
             System.out.println("Собака");
         }
