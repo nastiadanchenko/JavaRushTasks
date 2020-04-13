@@ -27,7 +27,20 @@ public class Solution {
             String s = reader.readLine();
             list.add(s.toLowerCase());
         }
+        int[] result = new int[alphabet.size()];
+        for (String string:list
+             ) {
+            String temp;
+            for (int i = 0; i <string.length() ; i++) {
+                temp = string.substring(i);
+                int number = alphabet.indexOf(temp.charAt(0));
+                if(number>=0) result[number]++;
+            }
 
-
+        }
+        for (int i = 0; i < alphabet.size(); i++) {
+            System.out.println(alphabet.get(i)+ " "+ result[i]);
+        }
+        // напишите тут ваш код
     }
 }
