@@ -15,28 +15,22 @@ public class Solution {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String string = reader.readLine();
         try (FileInputStream inputStream = new FileInputStream(string)) {
-            byte[] fileInArray = new byte[inputStream.available()];
-            inputStream.read(fileInArray, 0, inputStream.available());
-            Arrays.sort(fileInArray);
-            System.out.println(Arrays.toString(fileInArray));
-            int max=0;
-            int count=0;
-            ArrayList<Byte> doubeles = new ArrayList<>();
-            for (int i = 1; i < fileInArray.length-1; i++) {
-
-                if (fileInArray[i]==fileInArray[i-1]){
-                    count++;
-                    if (max<count){
-                        doubeles.removeIf();
-                        max = count;
-
-                        doubeles.add(fileInArray[i]);
-                    }if(max==count){
-                        doubeles.add(fileInArray[i]);
-                    }
-                    }
+            long[] longs = new long[256];
+            while (inputStream.available()>0){
+                longs[inputStream.read()]++;
+            }
+            long madRepeat = 0;
+            for (int i = 0; i <longs.length ; i++) {
+                if(longs[i]>madRepeat){
+                    madRepeat = longs[i];
                 }
-            System.out.println(doubeles.toString());
+            }
+            for (int i = 0; i <longs.length ; i++) {
+                if (longs[i]==madRepeat){
+                    System.out.print(i+" ");
+                }
+            }
+
             }
 
 
