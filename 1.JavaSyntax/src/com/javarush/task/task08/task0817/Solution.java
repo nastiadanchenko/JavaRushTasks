@@ -1,5 +1,7 @@
-package task08.task0817;
+package com.javarush.task.task08.task0817;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -11,7 +13,7 @@ public class Solution {
     public static Map<String, String> createMap() {
         Map<String, String> map = new HashMap<>();
         map.put("Путин", "Владимир");
-        map.put("Фурсенко", "Андрей");
+        map.put("Пупкин", "Андрей");
         map.put("Фурсенко ", "Сергей");
         map.put("Якунин", "Владимир");
         map.put("Медведев ", "Дмитрий");
@@ -21,10 +23,16 @@ public class Solution {
         map.put("Ковальчук", "Юрий");
         map.put("Мячин", "Виктор");
         return map;
+
     }
 
     public static void removeTheFirstNameDuplicates(Map<String, String> map) {
-
+        ArrayList<String> list = new ArrayList<>(map.values());
+        Collections.sort(list);
+        for (int i = 0; i <list.size()-1 ; i++) {
+            if (list.get(i).equals(list.get(i+1)))
+                removeItemFromMapByValue(map,list.get(i));
+        }
 
 
     }
@@ -39,6 +47,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
 
     }
 }

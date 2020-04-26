@@ -9,41 +9,57 @@ import java.io.InputStreamReader;
 */
 
 public class Solution {
-         public static void main(String[] args) throws IOException {
-            BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+    public static void main(String[] args) throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-            String motherName = reader.readLine();
-            Cat catMother = new Cat(motherName);
+        Cat dad = new Cat(reader.readLine());
+        Cat ba = new Cat(reader.readLine());
+        Cat fater = new Cat(reader.readLine(), null,dad);
+        Cat mother = new Cat(reader.readLine(), ba, null);
+        Cat son = new Cat(reader.readLine(), mother, fater);
+        Cat doughter = new Cat(reader.readLine(), mother, fater);
 
-            String daughterName = reader.readLine();
-            Cat catDaughter = new Cat(daughterName, catMother);
+    }
 
-            System.out.println(catMother);
-            System.out.println(catDaughter);
+    public static class Cat {
+        private String name;
+        private Cat mother;
+        private Cat father;
+
+        Cat(String name) {
+            this.name = name;
+            System.out.println(toString());
         }
 
-        public static class Cat {
-            private String name;
-            private Cat parent;
+        Cat(String name, Cat mother ,Cat father ) {
+            this.name = name;
+            this.mother = mother;
+            this.father = father;
+            System.out.println(toString());
+        }
 
-            Cat(String name) {
-                this.name = name;
+        @Override
+        public String toString() {
+            String text = "";
+            text += "The cat's name is " + this.name;
+
+            if (this.father != null && this.mother==null) {
+                text += ", no mother, father is " + this.father.name;
             }
 
-            Cat(String name, Cat parent) {
-                this.name = name;
-                this.parent = parent;
+            if (this.mother != null && this.father==null) {
+                text += ", mother is " + this.mother.name+ ", no father";
+            }
+            if (this.mother != null && this.father!=null){
+                text += ", mother is " + this.mother.name + ", father is " + this.father.name;
+            }
+            if (this.mother == null && this.father==null){
+                text += ", no mother, no father";
             }
 
-            @Override
-            public String toString() {
-                if (parent == null)
-                    return "The cat's name is " + name + ", no mother ";
-                else
-                    return "The cat's name is " + name + ", mother is " + parent.name;
-            }
+            return text;
+
         }
     }
 
-
-
+}

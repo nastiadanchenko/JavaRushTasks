@@ -20,14 +20,14 @@ public class Solution {
     }
 
     public static ArrayList<String> fix(ArrayList<String> strings) {
-        for (int i = strings.size(); i <=0; i--) {
-            if (strings.get(i).contains("р") && strings.get(i).contains("л")) {
+        for (int i = 0; i <strings.size(); i++) {
+            String s = strings.get(i);
+            if (s.contains("р") &&! s.contains("л")) {
+                strings.remove(i);
+                i--;
             }
-            if (strings.get(i).contains("р")&& !strings.get(i).contains("л")) {
-                strings.remove(strings.get(i));
-            }
-            if (strings.get(i).contains("л")&& !strings.get(i).contains("р")) {
-                strings.add(strings.get(i));
+            if (s.contains("л")&&!s.contains("р")) {
+                strings.add(i,strings.get(i++));
             }
         }
         return strings;
