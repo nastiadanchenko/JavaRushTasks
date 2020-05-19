@@ -35,7 +35,7 @@ public class Solution {
                      ) {
                     count += Collections.frequency(list, s); // ищем количество совпатений в списку, сравнивая сщ значениями из списка words
                 }
-                if (count==2) {System.out.println(string); 
+                if (count==2) {System.out.println(string);
                 }
             }
 
