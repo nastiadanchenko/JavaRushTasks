@@ -1,10 +1,9 @@
 package com.javarush.task.task23.task2312;
 
-/**
- * Created by User on 07.07.2020.
- */
 public class SnakeSection {
-    private int x, y;
+    private int x;
+    private int y;
+
 
     public SnakeSection(int x, int y) {
         this.x = x;
@@ -17,5 +16,25 @@ public class SnakeSection {
 
     public int getY() {
         return y;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        SnakeSection that = (SnakeSection) o;
+
+        if (x != that.x) return false;
+        if (y != that.y) return false;
+
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = x;
+        result = 31 * result + y;
+        return result;
     }
 }
