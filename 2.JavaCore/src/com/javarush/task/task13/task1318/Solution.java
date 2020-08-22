@@ -18,15 +18,20 @@ public class Solution {
             int data = inStream.read();
             char chars = (char) data;
             System.out.print(chars);
-        }
 
-        /*BufferedReader bif = new BufferedReader(new InputStreamReader(inStream));
-        while (bif.ready()){
-            System.out.println(bif.readLine());
-        }*/
+
+        }
         inStream.close();
         reader.close();
-        //bif.close();
+        /*BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String s = reader.readLine();
+        try (BufferedReader bif = new BufferedReader(new InputStreamReader(new FileInputStream(s)))) {
+            while (bif.ready()) {
+                System.out.println(bif.readLine());
+            }
+            reader.close();
+
+        }*/
 
     }
 }
