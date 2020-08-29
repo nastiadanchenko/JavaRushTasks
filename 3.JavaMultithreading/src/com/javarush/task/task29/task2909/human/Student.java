@@ -36,12 +36,18 @@ public class Student extends UniversityPerson {
     public void setCourse(int course){
         this.course = course;}
 
-    public void incAverageGradeBy01() {
+  /*  public void incAverageGradeBy01() {
         averageGrade += 0.1;
     }
 
     public void incAverageGradeBy02() {
         averageGrade += 0.2;
+    }
+*/
+    public void incAverageGrade(double delta){
+        averageGrade+=delta;
+        setAverageGrade(getAverageGrade());
+
     }
 
     /*public void setValue(String name, double value) {
@@ -55,12 +61,12 @@ public class Student extends UniversityPerson {
         }
     }*/
 
-    public void setBeginningOfSession(int day, int month, int year) {
-        beginningOfSession = new Date(year, month, day);
+    public void setBeginningOfSession(Date date) {
+        this.beginningOfSession = date;
     }
 
-    public void setEndOfSession(int day, int month, int year) {
-        endOfSession = new Date(year, month, day);
+    public void setEndOfSession(Date date) {
+        this.endOfSession = date;
     }
 
     public double getAverageGrade() {
