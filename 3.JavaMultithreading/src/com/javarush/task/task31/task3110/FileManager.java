@@ -7,16 +7,13 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by User on 09.09.2020.
- */
 public class FileManager {
     private Path rootPath;
     private List<Path> fileList;
 
     public FileManager(Path rootPath) throws IOException {
         this.rootPath = rootPath;
-        fileList= new ArrayList<>();
+        this.fileList = new ArrayList<>();
         collectFileList(rootPath);
     }
 
@@ -25,10 +22,12 @@ public class FileManager {
     }
 
     private void collectFileList(Path path) throws IOException {
+        // Добавляем только файлы
         if (Files.isRegularFile(path)) {
             Path relativePath = rootPath.relativize(path);
             fileList.add(relativePath);
         }
+
         // Добавляем содержимое директории
         if (Files.isDirectory(path)) {
             // Рекурсивно проходимся по всему содержмому директории
