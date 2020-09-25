@@ -1,0 +1,13 @@
+
+T
+squid:S106X"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+=squid:S1170"!Make this final field static too.(ˆ«Ã„ûÿÿÿÿ
+vsquid:S00116"YRename this field "MAX_BATCH_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†×ÊÊþÿÿÿÿ
+=squid:S1170"!Make this final field static too.(†×ÊÊþÿÿÿÿ
+T
+squid:S106Y"9Replace this use of System.out or System.err by a logger.(‰¶Æðùÿÿÿÿ
+Asquid:S1181H"%Catch Exception instead of Throwable.(‡˜ÚÚøÿÿÿÿ
+usquid:S1171<"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ
+T
+squid:S106Z"9Replace this use of System.out or System.err by a logger.(áÛ¯ôùÿÿÿÿ
+ysquid:S00116"\Rename this field "NUMBER_OF_THREADS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ«Ã„ûÿÿÿÿ

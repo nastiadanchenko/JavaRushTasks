@@ -1,0 +1,24 @@
+
+„ squid:ForLoopCounterChangedCheck!"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ş¶ÒÄ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(„»ı
+Msquid:S2696""6Make the enclosing method "static" or remove this set.(Æ¶±˜
+T
+squid:S1062"9Replace this use of System.out or System.err by a logger.(¶àØÇşÿÿÿÿ
+†"squid:ClassVariableVisibilityCheck"SMake flagWin a static final constant or non-public and provide accessors if needed.(Ü‚‚ıÿÿÿÿ
+Usquid:S34006"9Remove this method and declare a constant for this value.(ˆæÌ¥ÿÿÿÿÿ
+T
+squid:S106+"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+Isquid:S1444"-Make this "public static flagWin" field final(Ü‚‚ıÿÿÿÿ
+T
+squid:S1061"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+T
+squid:S106,"9Replace this use of System.out or System.err by a logger.(²ƒÛéøÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Î°š¨
+Fsquid:S1066"/Merge this if statement with the enclosing one.(Äœ£…
+Fsquid:S1066"/Merge this if statement with the enclosing one.(Äœ£…
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Áã–
+N
+squid:S106-"9Replace this use of System.out or System.err by a logger.(˜é¾

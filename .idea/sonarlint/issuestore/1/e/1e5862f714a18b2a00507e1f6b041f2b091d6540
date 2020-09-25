@@ -1,0 +1,11 @@
+
+jsquid:UselessImportCheck"?Remove this unused import 'javafx.beans.binding.StringBinding'.(óÃ8ßŞâË.
+_squid:S3457)"AFormat specifiers should be used instead of string concatenation.(€Åµõ8òë¾ãË.
+O
+squid:S1063"9Replace this use of System.out or System.err by a logger.(€¿¾®
+_squid:S3457!"AFormat specifiers should be used instead of string concatenation.(ß·´Ä8˜•ÓãË.
+ksquid:S1450"VRemove the "numberB" field and declare it as a local variable in the relevant methods.(­’@
+T
+squid:S1062"9Replace this use of System.out or System.err by a logger.(ñ»¢‘úÿÿÿÿ
+rsquid:S1450"VRemove the "numberA" field and declare it as a local variable in the relevant methods.(ˆµµƒúÿÿÿÿ
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‚Šøÿÿÿÿ8×±ñãË.

@@ -1,0 +1,8 @@
+
+?squid:S2111#"!Use "BigDecimal.valueOf" instead.(ò¹õÊ8«Úñ€Ì.
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÓÑ‹İ
+@squid:S2129"$Remove this "BigDecimal" constructor(„ÍÃúÿÿÿÿ
+=squid:S2111"!Use "BigDecimal.valueOf" instead.(„ÍÃúÿÿÿÿ
+isquid:S2184""FCast one of the operands of this multiplication operation to a "long".(² ²Ùúÿÿÿÿ8«Úñ€Ì.
+Bsquid:S2129#"$Remove this "BigDecimal" constructor(ò¹õÊ8«Úñ€Ì.
