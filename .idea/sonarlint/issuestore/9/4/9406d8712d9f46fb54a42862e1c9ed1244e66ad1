@@ -1,0 +1,13 @@
+
+Asquid:S001083")Either remove or fill this block of code.(‰ ª¢
+Asquid:S00108,")Either remove or fill this block of code.(ßÈ´
+Asquid:S00108=")Either remove or fill this block of code.(ßÈ´
+Asquid:S00108")Either remove or fill this block of code.(ßÈ´
+T
+squid:S106D"9Replace this use of System.out or System.err by a logger.(÷èá¼ùÿÿÿÿ
+O
+squid:S106E"9Replace this use of System.out or System.err by a logger.(öç  
+T
+squid:S106C"9Replace this use of System.out or System.err by a logger.(Ì­§ıÿÿÿÿÿ
+hsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(©Ğ®U
+„squid:S21783"fCorrect this "&" to "&&" and extract the right operand to a variable if it should always be evaluated.(‰ ª¢8í»µéÑ.

@@ -1,0 +1,8 @@
+
+„squid:S2178c"fCorrect this "|" to "||" and extract the right operand to a variable if it should always be evaluated.(¸˜ ÷8ÝêŸ€Ô.
+Usquid:S2589%"7Remove this expression which always evaluates to "true"(¢—° 8Ú´À·Ò.
+‹ squid:ForLoopCounterChangedCheck="XRefactor the code in order to not assign to this loop counter from within the loop body.(Ó¹½¯8À›ßÒ.
+„squid:S2178X"fCorrect this "|" to "||" and extract the right operand to a variable if it should always be evaluated.(¸˜ ÷8ÐÖ•àÒ.
+Lsquid:S2140&")Use "java.util.Random.nextInt()" instead.(Ÿ×¯¢ýÿÿÿÿ8Êä¥·Ò.
+]squid:UselessImportCheck"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8•ã†Ó.
+\squid:S1155%">Use isEmpty() to check whether the collection is empty or not.(¢—° 8½ÕŽ·Ò.

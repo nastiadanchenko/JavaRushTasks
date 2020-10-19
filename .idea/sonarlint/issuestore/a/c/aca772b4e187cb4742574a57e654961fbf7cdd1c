@@ -1,0 +1,11 @@
+
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÑΩòŸ
+usquid:S1171("YMove the contents of this initializer to a standard constructor or to field initializers.(“Ã‚ñ¯ˇˇˇˇ
+usquid:S11710"YMove the contents of this initializer to a standard constructor or to field initializers.(“Ã‚ñ¯ˇˇˇˇ
+asquid:S1155">Use isEmpty() to check whether the collection is empty or not.(Ï¬™ı¸ˇˇˇˇ8⁄„óë–.
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(⁄ó”µ
+usquid:S1171 "YMove the contents of this initializer to a standard constructor or to field initializers.(“Ã‚ñ¯ˇˇˇˇ
+asquid:S1155">Use isEmpty() to check whether the collection is empty or not.(Å˘∫√˛ˇˇˇˇ8ª‚¨ë–.
+\squid:S1155">Use isEmpty() to check whether the collection is empty or not.(õê¿‘8î…†ë–.

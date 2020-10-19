@@ -1,0 +1,6 @@
+
+}squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(Ë˜ª®8è•äÍ.
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8½•åÍ.
+Tsquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8½•åÍ.
+bsquid:S2147"DCombine this catch with the one at line 28, which has the same body.(ï­£Ä8½•åÍ.

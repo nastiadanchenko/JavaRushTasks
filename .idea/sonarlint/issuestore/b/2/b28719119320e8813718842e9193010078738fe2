@@ -1,0 +1,9 @@
+
+isquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(‚¦¡ûûÿÿÿÿ8š…™Ò.
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ş¼Òî8¯Ê‘™Ò.
+W
+squid:S899":Do something with the "boolean" value returned by "offer".(§«Ÿù8ßÎ‡™Ò.
+Msquid:S00108")Either remove or fill this block of code.(‚¦¡ûûÿÿÿÿ8¨À™Ò.
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ñ‚Öî8Ÿ‰™Ò.

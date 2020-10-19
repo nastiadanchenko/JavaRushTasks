@@ -1,0 +1,5 @@
+
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(Âœ’ø8Ù¡Â™Ò.
+9squid:S3626"Remove this redundant jump.(ûÁİ…8ÊÅ™Ò.
+dsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8àÀÁ™Ò.
