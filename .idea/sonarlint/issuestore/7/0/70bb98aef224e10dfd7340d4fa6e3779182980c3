@@ -1,8 +1,14 @@
 
-„squid:S2178c"fCorrect this "|" to "||" and extract the right operand to a variable if it should always be evaluated.(¸˜ ÷8İêŸ€Ô.
-Usquid:S2589%"7Remove this expression which always evaluates to "true"(¢—° 8Ú´À·Ò.
-‹ squid:ForLoopCounterChangedCheck="XRefactor the code in order to not assign to this loop counter from within the loop body.(Ó¹½¯8À›ßÒ.
-„squid:S2178X"fCorrect this "|" to "||" and extract the right operand to a variable if it should always be evaluated.(¸˜ ÷8ĞÖ•àÒ.
-Lsquid:S2140&")Use "java.util.Random.nextInt()" instead.(Ÿ×¯¢ıÿÿÿÿ8Êä¥·Ò.
+osquid:CommentedOutCodeLineÆ"<This block of commented-out lines of code should be removed.(õ–ôÄùÿÿÿÿ8ßˆü°Ô.
+Usquid:S2589-"7Remove this expression which always evaluates to "true"(¢—° 8Ú´À·Ò.
+Msquid:S2140¼")Use "java.util.Random.nextInt()" instead.(°‰Êûÿÿÿÿ8ŞŒÙ²Ô.
+„squid:S2178b"fCorrect this "|" to "||" and extract the right operand to a variable if it should always be evaluated.(¸˜ ÷8ĞÖ•àÒ.
+„squid:S2178p"fCorrect this "|" to "||" and extract the right operand to a variable if it should always be evaluated.(¸˜ ÷8İêŸ€Ô.
+W"squid:SwitchLastCaseIsDefaultCheck½""Add a default case to this switch.(Âúïi8–åà²Ô.
+nsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(İƒÁ«8Çœ¯²Ô.
+‹ squid:ForLoopCounterChangedCheckE"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ó¹½¯8À›ßÒ.
+ssquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Üôúãøÿÿÿÿ8Çœ¯²Ô.
+Lsquid:S2140.")Use "java.util.Random.nextInt()" instead.(Ÿ×¯¢ıÿÿÿÿ8Êä¥·Ò.
+Osquid:S1905µ"+Remove this unnecessary cast to "Tile[][]".(Î©ÃÆùÿÿÿÿ8Çœ¯²Ô.
 ]squid:UselessImportCheck"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8•ã†Ó.
-\squid:S1155%">Use isEmpty() to check whether the collection is empty or not.(¢—° 8½Õ·Ò.
+\squid:S1155-">Use isEmpty() to check whether the collection is empty or not.(¢—° 8½Õ·Ò.

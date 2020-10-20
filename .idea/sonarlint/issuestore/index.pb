@@ -151,3 +151,7 @@ u
 E3.JavaMultithreading/src/com/javarush/task/task30/task3003/output.txt,3\8\3858ce2d5f512f6ec0c477782f7ef3894c9d3810
 t
 D3.JavaMultithreading/src/com/javarush/task/task35/task3513/Tile.java,f\5\f5851ffd491db16037c112d40d949224686bdecd
+t
+D3.JavaMultithreading/src/com/javarush/task/task35/task3513/Move.java,9\7\97a11424444e324a66d1dfacc69c5aed1aa734a8
+~
+N3.JavaMultithreading/src/com/javarush/task/task35/task3513/MoveEfficiency.java,d\6\d6a2fa895a964687a55892a668a8396fba6af801

@@ -1,0 +1,4 @@
+
+Tsquid:S1068"6Remove this unused "numberOfEmptyTiles" private field.(¶Ç–â8Ãö²Ô.
+Lsquid:S1068")Remove this unused "score" private field.(µ¼æÿÿÿÿÿ8Ãö²Ô.
+¤squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(œ€Íùÿÿÿÿ8¸ô²Ô.
