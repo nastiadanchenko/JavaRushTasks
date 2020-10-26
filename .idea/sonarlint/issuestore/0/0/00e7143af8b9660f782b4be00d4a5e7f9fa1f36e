@@ -1,2 +1,2 @@
 
-©%squid:RedundantThrowsDeclarationCheck"qRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from constructor's body.(¥Ã ‚8ä€ÖËÌ.
+dsquid:S1126&"AReplace this if-then-else statement by a single return statement.(Ý°¢çþÿÿÿÿ8Ö§ÃÿÔ.

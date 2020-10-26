@@ -1,4 +1,7 @@
 
-Tsquid:S1068"6Remove this unused "numberOfEmptyTiles" private field.(¶Ç–â8Ãö²Ô.
-Lsquid:S1068")Remove this unused "score" private field.(µ¼æÿÿÿÿÿ8Ãö²Ô.
+ squid:S1158"}Call the static method Integer.compare(...) instead of instantiating a temporary object to perform this to string conversion.(à³îúÿÿÿÿ8ÜÜÏÔ.
 ¤squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(œ€Íùÿÿÿÿ8¸ô²Ô.
+Dsquid:S2129"!Remove this "Integer" constructor(à³îúÿÿÿÿ8ÜÜÏÔ.
+Dsquid:S2129"!Remove this "Integer" constructor(à³îúÿÿÿÿ8ÜÜÏÔ.
+wsquid:S1210"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(àæ±Š8å’ğÎÔ.
+†squid:S1488"cImmediately return this expression instead of assigning it to the temporary variable "scoreResult".(Ê•‹äúÿÿÿÿ8¯’ ÏÔ.

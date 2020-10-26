@@ -1,9 +1,9 @@
 
-Isquid:S1481"+Remove this unused "order1" local variable.(ØÍ“’8¿™¦ÏÌ.
-{squid:UselessImportCheck"KRemove this unused import 'com.javarush.task.task27.task2712.kitchen.Dish'.(‚Ù°Ûúÿÿÿÿ8ûÈ¹ÎÌ.
-hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ºçí/8ê§ÏÌ.
-Xsquid:S1191"5Use classes from the Java API instead of Sun classes.(µõ³‚øÿÿÿÿ8ı‹øÍÌ.
-Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8—›ÏÌ.
-Xsquid:S1854":Remove this useless assignment to local variable "order1".(ØÍ“’8¿™¦ÏÌ.
-[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ìïÎÌ.
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÄË³Š8¥á¦ÏÌ.
+|squid:UselessImportCheck"LRemove this unused import 'com.sun.org.apache.xpath.internal.operations.Or'.(µõ³‚øÿÿÿÿ8ò¥¸şÔ.
+Xsquid:S1191"5Use classes from the Java API instead of Sun classes.(µõ³‚øÿÿÿÿ8ı‹øÍÌ.
+[squid:UselessImportCheck
+"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ü¦üÔ.
+[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ü¦üÔ.
+|squid:UselessImportCheck"LRemove this unused import 'com.javarush.task.task27.task2712.kitchen.Order'.(ûä¢‘ıÿÿÿÿ8ò¥¸şÔ.
+`squid:UselessImportCheck	"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8Íâ·ûÔ.
+{squid:UselessImportCheck"KRemove this unused import 'com.javarush.task.task27.task2712.kitchen.Dish'.(‚Ù°Ûúÿÿÿÿ8ûÈ¹ÎÌ.

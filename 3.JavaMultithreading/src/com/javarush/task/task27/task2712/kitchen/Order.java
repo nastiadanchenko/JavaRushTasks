@@ -11,17 +11,35 @@ import java.util.List;
  */
 public class Order {
     private final Tablet tablet;
-    protected List<Dish> dishes = ConsoleHelper.getAllDishesForOrder();
+    protected List<Dish> dishes;
 
     public Order(Tablet tablet) throws IOException {
         this.tablet = tablet;
+        dishes = ConsoleHelper.getAllDishesForOrder();
+    }
+
+    public List<Dish> getDishes() {
+        return dishes;
     }
 
     @Override
     public String toString() {
-        if (dishes.isEmpty()){
-            return "";
+        return dishes.isEmpty() ? "" : String.format("Your order: %s of %s", dishes, tablet);
+    }
+    public int getTotalCookingTime(){
+        int cookingTime = 0;
+        for (Dish dish: dishes){
+            cookingTime+=dish.getDuration();
         }
-        return String.format("Your order: %s of %s", dishes, tablet);
+        return cookingTime;
+    }
+
+    public boolean isEmpty(){
+        if (!dishes.isEmpty()) return false;
+        return true;
+    }
+
+    public Tablet getTablet() {
+        return tablet;
     }
 }

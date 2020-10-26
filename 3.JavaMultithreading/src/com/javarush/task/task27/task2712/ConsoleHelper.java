@@ -18,24 +18,29 @@ public class ConsoleHelper {
         System.out.println(message);
     }
     public static String readString() throws IOException {
-       // String stringReader = reader.readLine();
-        return reader.readLine();
+        String text = reader.readLine();
+        return text;
     }
 
     public static List<Dish> getAllDishesForOrder() throws IOException {
-        List<Dish> listOrder = new ArrayList<>();
+        List<Dish> dishList = new ArrayList<>();
         writeMessage(Dish.allDishesToString());
-        writeMessage("Введите в название блюда. Для засершения заказа введите 'exit'.");
+        writeMessage("Введите список блюд, 'exit' - завершение заказа.");
+        String result = null;
         while (true){
-            String dish = readString();
-            if (dish.equals("exit")) break;
-            try {
-                listOrder.add(Dish.valueOf(dish));
-            } catch (Exception e) {
-                writeMessage("Такого блюда не существует.");
-            }
-        }
+            boolean a = false;
+            result = reader.readLine();
+            if(result.equals("exit"))break;
 
-        return listOrder;
+            for (Dish dish: Dish.values()){
+                if (result.equals(dish.toString())) {
+                    dishList.add(dish);
+                    a = true;
+                }
+            }
+            if(!a)writeMessage("Вы ввели не правильное блюдо!");
+
+        }
+        return dishList;
     }
 }

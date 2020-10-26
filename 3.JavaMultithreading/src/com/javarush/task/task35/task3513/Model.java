@@ -1,9 +1,6 @@
 package com.javarush.task.task35.task3513;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * Created by User on 12.10.2020.
@@ -181,19 +178,59 @@ public class Model {
             gameTiles = (Tile[][]) previousStates.pop();
         }
         if (!previousScores.isEmpty()) {
-            score = (int)previousScores.pop();
+            score = (int) previousScores.pop();
         }
     }
- public void randomMove (){
-     int n = ((int) (Math.random() * 100)) % 4;
-     switch (n){
-         case 0:left(); break;
-         case 1: right(); break;
-         case 2: up(); break;
-         case 3: down(); break;
-     }
- }
 
+    public void randomMove() {
+        int n = ((int) (Math.random() * 100)) % 4;
+        switch (n) {
+            case 0:
+                left();
+                break;
+            case 1:
+                right();
+                break;
+            case 2:
+                up();
+                break;
+            case 3:
+                down();
+                break;
+        }
+    }
+
+    public boolean hasBoardChanged() {
+        Tile[][] list = previousStates.peek();
+        for (int i = 0; i < gameTiles.length; i++) {
+            for (int j = 0; j < gameTiles.length; j++) {
+                if (gameTiles[i][j].value != list[i][j].value) {
+                    return true;
+                }
+
+            }
+        }
+        return false;
+    }
+
+    public MoveEfficiency getMoveEfficiency(Move move) {
+        move.move();
+        if (!hasBoardChanged()) {
+            return new MoveEfficiency(-1, 0, move);
+        }
+        rollback();
+        return new MoveEfficiency(getEmptyTiles().size(), score, move);
+    }
+
+    public void autoMove() {
+        PriorityQueue<MoveEfficiency> queue = new PriorityQueue<>(4, Collections.reverseOrder());
+        queue.add(getMoveEfficiency(this::left));
+        queue.add(getMoveEfficiency(this::right));
+        queue.add(getMoveEfficiency(this::up));
+        queue.add(getMoveEfficiency(this::down));
+        queue.peek().getMove().move();
+
+    }
 
    /* public static void main(String[] args) {
         Model m = new Model();

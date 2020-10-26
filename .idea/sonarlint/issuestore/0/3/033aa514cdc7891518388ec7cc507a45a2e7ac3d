@@ -1,0 +1,8 @@
+
+Fsquid:S1604c"(Make this anonymous inner class a lambda(†€ãŠ8ÛŠÃ¤Ö.
+_squid:UselessImportCheck"4Remove this unused import 'java.util.logging.Level'.(…µÛ¶8³ÆÈ©Õ.
+Xsquid:S1191"5Use classes from the Java API instead of Sun classes.(‹¸Œôøÿÿÿÿ8Š—‰¤Ö.
+Fsquid:S1604&"(Make this anonymous inner class a lambda(’ïÔ‡8Ò§¨¤Ö.
+†squid:UselessImportCheck"VRemove this unused import 'com.sun.org.apache.xerces.internal.impl.xpath.regex.Match'.(‹¸Œôøÿÿÿÿ8Š—‰¤Ö.
+Ksquid:S1604O"(Make this anonymous inner class a lambda(ãñâçþÿÿÿÿ8ÛŠÃ¤Ö.
+usquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(­ë‚Šøÿÿÿÿ8ßþ¼¤Ö.
