@@ -1,6 +1,6 @@
 
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ö ¹§øÿÿÿÿ8Ó¦öÿÔ.
-Xsquid:S1191"5Use classes from the Java API instead of Sun classes.(µõ³‚øÿÿÿÿ8ÓÌ»ÿÔ.
 |squid:UselessImportCheck"LRemove this unused import 'com.sun.org.apache.xpath.internal.operations.Or'.(µõ³‚øÿÿÿÿ8ÓÌ»ÿÔ.
+Xsquid:S1191"5Use classes from the Java API instead of Sun classes.(µõ³‚øÿÿÿÿ8ÓÌ»ÿÔ.
 V
 squid:S106"9Replace this use of System.out or System.err by a logger.(ÿ—®á8ÕÃýÔ.
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ö ¹§øÿÿÿÿ8Ó¦öÿÔ.

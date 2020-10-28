@@ -1,0 +1,8 @@
+
+˜squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(œû¿Ø
+^squid:UselessImportCheck	":Remove this unused import 'java.util.zip.ZipOutputStream'.(ü“–
+Tsquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+bsquid:UselessImportCheck"9Remove this unused import 'java.util.zip.ZipInputStream'.(§£ñÔúÿÿÿÿ
+Tsquid:UselessImportCheck"0Remove this unused import 'java.nio.file.Files'.(‚ƒü
+\squid:UselessImportCheck"3Remove this unused import 'java.util.zip.ZipEntry'.(çóüÛüÿÿÿÿ
+Tsquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ

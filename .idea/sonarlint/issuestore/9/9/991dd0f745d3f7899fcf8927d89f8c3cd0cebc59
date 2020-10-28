@@ -1,4 +1,4 @@
 
 Osquid:S1068	"1Remove this unused "initialAmount" private field.(­†¥8ÆëÅ†Õ.
-Nsquid:S1068"+Remove this unused "content" private field.(ì€¯äÿÿÿÿÿ8´¼Ä†Õ.
 ¥squid:S2681("†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(›ØÌ8¶½Ú¤Ö.
+Nsquid:S1068"+Remove this unused "content" private field.(ì€¯äÿÿÿÿÿ8´¼Ä†Õ.

@@ -1,0 +1,6 @@
+
+§%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(Âﬂ∆π8ôŒÿ“÷.
+òsquid:S1186("ÄAdd a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«µÌë
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(˚ﬁ£ˇ8∞√¬“÷.
+hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ó˛ÜP8çÅ…“÷.
+qsquid:UselessImportCheck"HRemove this unused import 'java.nio.file.attribute.BasicFileAttributes'.(ìè„„ˇˇˇˇˇ
