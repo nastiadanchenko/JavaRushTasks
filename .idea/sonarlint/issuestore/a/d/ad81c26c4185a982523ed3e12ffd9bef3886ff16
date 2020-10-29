@@ -1,0 +1,9 @@
+
+Ssquid:UselessImportCheck"/Remove this unused import 'java.nio.file.Path'.(×²êÂ
+Tsquid:UselessImportCheck"0Remove this unused import 'java.nio.file.Paths'.(áè°¯
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Â‡¤Ó
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Â‡¤Ó
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Â‡¤Ó
