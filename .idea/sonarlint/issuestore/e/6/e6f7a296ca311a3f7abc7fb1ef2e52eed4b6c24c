@@ -1,2 +1,23 @@
 
-Csquid:S2157"%Add a "clone()" method to this class.(ÁßšĞ8Ø¢Ç®×.
+Esquid:S1872c"'Use an "instanceof" comparison instead.(øøùå8Ù«Ø.
+Ksquid:S1199O"-Extract this nested code block into a method.(İúĞ¨8çÛ•Ø.
+isquid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(„§ñ£8„ß÷È×.
+jsquid:CommentedOutCodeLine­"<This block of commented-out lines of code should be removed.(‘ûÈ„8ÌÏñ×.
+osquid:CommentedOutCodeLine³"<This block of commented-out lines of code should be removed.(§±Ñüşÿÿÿÿ8ÌÏñ×.
+=squid:S2178Ğ"Correct this "|" to "||".(ÛÎ¥Üıÿÿÿÿ8ÌÏñ×.
+W"squid:SwitchLastCaseIsDefaultCheckN""Add a default case to this switch.(•˜Ö8çÛ•Ø.
+Fsquid:S1659À"'Declare "leftChild" on a separate line.(ğ¸òÖ8ÌÏñ×.
+Dsquid:S1948"!Make "list" private or transient.(ÑÀØÎşÿÿÿÿ8³ÌèÉ×.
+isquid:S1301N"KReplace this "switch" statement by "if" statements to increase readability.(•˜Ö8çÛ•Ø.
+Dsquid:S1948"&Make "copyQueue" private or transient.(€Â´8¬ÓäÓ×.
+osquid:CommentedOutCodeLine¡"<This block of commented-out lines of code should be removed.(Éâ‚’ûÿÿÿÿ8ÌÏñ×.
+Ksquid:S1199V"-Extract this nested code block into a method.(ûÚ¡ë8çÛ•Ø.
+jsquid:CommentedOutCodeLine¹"<This block of commented-out lines of code should be removed.(ãö‚8ÌÏñ×.
+usquid:S37767"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¯¢³Äıÿÿÿÿ8çÛ•Ø.
+Csquid:S2157"%Add a "clone()" method to this class.(ÁßšĞ8Ø¢Ç®×.
+Gsquid:S1659À"(Declare "rightChild" on a separate line.(ğ¸òÖ8ÌÏñ×.
+Isquid:S2160"+Override the "equals" method in this class.(ÁßšĞ8ß³ÆÉ×.
+jsquid:CommentedOutCodeLine›"<This block of commented-out lines of code should be removed.(µ¢Ø¢8ÌÏñ×.
+osquid:CommentedOutCodeLine§"<This block of commented-out lines of code should be removed.(ÈÀ´”şÿÿÿÿ8ÌÏñ×.
+Xsquid:S1659¿"9Declare "availableToAddRightChildren" on a separate line.(«æ™³8·ä—É×.
+usquid:UselessImportCheck"ERemove this unused import 'java.util.concurrent.LinkedBlockingDeque'.(ÌÇœüÿÿÿÿ8©ïªØ.

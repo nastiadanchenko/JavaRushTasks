@@ -1,3 +1,15 @@
 
-[squid:S1854"8Remove this useless assignment to local variable "list".(µïÆ‡úÿÿÿÿ8¡İÀ®×.
-Esquid:S1481")Remove this unused "list" local variable.(µïÆ‡úÿÿÿÿ
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÖâ8ûíˆò×.
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ñğëŸ8öÕ°É×.
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(•˜ÚÅ8ûíˆò×.
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ôŒÒ³8öÕ°É×.
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(Óñ…8ûíˆò×.
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(¸ğÙÕ8öÕ°É×.
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ñÈÜŒüÿÿÿÿ8ûíˆò×.
