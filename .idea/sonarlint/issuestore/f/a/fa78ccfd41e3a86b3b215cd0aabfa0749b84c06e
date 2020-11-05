@@ -1,0 +1,7 @@
+
+N
+squid:S106"9Replace this use of System.out or System.err by a logger.(‰Ôí
+csquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(±þÕšùÿÿÿÿ
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(»„ÂÈûÿÿÿÿ8‘– Ù.
+7squid:S2129" Remove this "String" constructor(´…†þ
+?squid:S1643%"Use a StringBuilder instead.(—ÚŽüüÿÿÿÿ8Ï¬– Ù.
