@@ -311,3 +311,11 @@ u
 E4.JavaCollections/src/com/javarush/task/task32/task3212/Solution.java,2\5\259680cf66848d9cd8babff379550e8efa361db9
 {
 K4.JavaCollections/src/com/javarush/task/task32/task3212/Условие.jrtc,f\9\f98e30e5316610d3716d4e2b09bc33869b569931
+{
+K4.JavaCollections/src/com/javarush/task/task22/task2213/Условие.jrtc,c\c\cc060cbf97a2d9b5fc3d322a71fed4771cef3cce
+r
+B4.JavaCollections/src/com/javarush/task/task22/task2213/Field.java,b\3\b3d020e93daefb2f53da386d1ff5e427219ef7ac
+s
+C4.JavaCollections/src/com/javarush/task/task22/task2213/Figure.java,d\7\d7e3d75a341b0dd05433973ee4b039efc5557759
+s
+C4.JavaCollections/src/com/javarush/task/task22/task2213/Tetris.java,a\0\a00adee9aeaf1e4f7065f739c03c087c124e4b5a
