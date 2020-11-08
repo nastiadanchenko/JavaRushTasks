@@ -1,2 +1,4 @@
 
-^squid:S2094"BRemove this empty class, write its code or make it an "interface".(™«àµúÿÿÿÿ
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ôÃ§ø8èÔ°ïÙ.
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÜÏë©øÿÿÿÿ8èÔ°ïÙ.
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(İ‘Â¿8èÔ°ïÙ.

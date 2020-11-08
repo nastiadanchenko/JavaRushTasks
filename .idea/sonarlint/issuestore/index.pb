@@ -319,3 +319,15 @@ s
 C4.JavaCollections/src/com/javarush/task/task22/task2213/Figure.java,d\7\d7e3d75a341b0dd05433973ee4b039efc5557759
 s
 C4.JavaCollections/src/com/javarush/task/task22/task2213/Tetris.java,a\0\a00adee9aeaf1e4f7065f739c03c087c124e4b5a
+z
+J4.JavaCollections/src/com/javarush/task/task22/task2213/FigureFactory.java,d\9\d98492e762d10e7262a5a3174c0f844363468fe4
+}
+M4.JavaCollections/src/com/javarush/task/task22/task2213/KeyboardObserver.java,3\6\36b032b81f053d78f863bf68b1f8d91533a5b6cd
+{
+K4.JavaCollections/src/com/javarush/task/task32/task3212/ServiceLocator.java,e\f\efb4912ee11b5642774fc019c438fb09467bad88
+t
+D2.JavaCore/src/com/javarush/task/task19/task1926/Условие.jrtc,9\d\9d4d4de36d6d54d38464dfd1d1cee292f9887547
+8
+FileTest,8\5\85ec2936ea660bb7f8320b59a0bad8b099e6d3b4
+n
+>2.JavaCore/src/com/javarush/task/task19/task1926/Solution.java,a\6\a6f2f4a0b7ca575600dc5aad33c857a607964129
