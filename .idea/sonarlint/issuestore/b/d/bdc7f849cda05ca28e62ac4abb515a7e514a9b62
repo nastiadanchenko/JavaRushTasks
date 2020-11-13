@@ -1,0 +1,6 @@
+
+ƒ"squid:ClassVariableVisibilityCheck"PMake city a static final constant or non-public and provide accessors if needed.(ÎÉâåúÿÿÿÿ
+Nsquid:UselessImportCheck"Remove this duplicated import.(Õë±Äøÿÿÿÿ8¼‘ç´Û.
+‚"squid:ClassVariableVisibilityCheck"TMake vehicles a static final constant or non-public and provide accessors if needed.(–ÚÞ¸
+qsquid:UselessImportCheck"MRemove this unused import 'com.fasterxml.jackson.annotation.JsonTypeInfo.As'.(Û–¢°
+~"squid:ClassVariableVisibilityCheck"PMake name a static final constant or non-public and provide accessors if needed.( þÍ¾
