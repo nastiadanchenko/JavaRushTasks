@@ -1,7 +1,17 @@
 
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ª¯…–Ü.
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ñ…8‹Ÿ„–Ü.
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(„ø8ãõ…–Ü.
+[
+squid:S106&"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ª¯…–Ü.
+V
+squid:S106*"9Replace this use of System.out or System.err by a logger.(×•œ²8ßšÿ»Ü.
+[
+squid:S1062"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ßšÿ»Ü.
+V
+squid:S106,"9Replace this use of System.out or System.err by a logger.(×•œ²8ßšÿ»Ü.
+[
+squid:S106/"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ßšÿ»Ü.
+V
+squid:S106+"9Replace this use of System.out or System.err by a logger.(Ñ…8‹Ÿ„–Ü.
+[
+squid:S1063"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ßšÿ»Ü.
+[
+squid:S1064"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ßšÿ»Ü.
