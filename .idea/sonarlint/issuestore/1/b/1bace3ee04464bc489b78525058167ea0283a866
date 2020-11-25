@@ -1,3 +1,4 @@
 
->squid:S2326"E is not used in the class.(ÛÅíªúÿÿÿÿ8–ä¾•Ý.
-Hsquid:S2157"%Add a "clone()" method to this class.(ÛÅíªúÿÿÿÿ8íÆ¹•Ý.
+hsquid:UselessImportCheck"8Remove this unused import 'java.util.function.Consumer'.(Ì†ƒÔùÿÿÿÿ8Û†Ó²ß.
+Nsquid:S2160"+Override the "equals" method in this class.(¹Ò˜öÿÿÿÿÿ8¿ÿ¡±ß.
+dsquid:UselessImportCheck"9Remove this unused import 'java.util.function.Predicate'.(ïÍ–¶8¼™Ì²ß.

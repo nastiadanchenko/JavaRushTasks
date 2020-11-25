@@ -1,9 +1,9 @@
 
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(¨ð÷œúÿÿÿÿ
-‰squid:S1319"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(é—ù§ýÿÿÿÿ
 ‚squid:S1319"kThe type of the "map" object should be an interface such as "Map" rather than the implementation "HashMap".(™æõ’
+‰squid:S1319"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(é—ù§ýÿÿÿÿ
 T
 squid:S106!"9Replace this use of System.out or System.err by a logger.(ìÊÑ­úÿÿÿÿ
 >squid:S2326
 "T is not used in the class.(§ÌÑƒúÿÿÿÿ8—¿Š©Þ.
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¨ð÷œúÿÿÿÿ
