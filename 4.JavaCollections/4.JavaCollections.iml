@@ -10,12 +10,14 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="file://D:/Download/JACSON" />
+          <root url="file://$MODULE_DIR$/../../JACSON" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
-        <jarDirectory url="file://D:/Download/JACSON" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../JACSON" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="org.slf4j:slf4j-api:1.7.23" level="application" />
+    <orderEntry type="library" name="org.slf4j:slf4j-api:1.7.231" level="application" />
   </component>
 </module>
