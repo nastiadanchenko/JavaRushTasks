@@ -19,5 +19,7 @@
     </orderEntry>
     <orderEntry type="library" name="org.slf4j:slf4j-api:1.7.23" level="application" />
     <orderEntry type="library" name="org.slf4j:slf4j-api:1.7.231" level="application" />
+    <orderEntry type="library" name="com.google.guava:guava:18.0" level="application" />
+    <orderEntry type="library" name="com.danidemi.jlubricant:jlubricant-apache-commons-collections:0.0.4" level="application" />
   </component>
 </module>
