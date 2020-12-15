@@ -26,5 +26,6 @@
     <orderEntry type="library" name="commons-collections4-4.0" level="application" />
     <orderEntry type="library" name="jlubricant-apache-commons-collections-0.0.4" level="application" />
     <orderEntry type="library" name="guave" level="application" />
+    <orderEntry type="library" name="org.jsoup:jsoup:1.9.2" level="application" />
   </component>
 </module>
