@@ -23,37 +23,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d86342d6-0860-464b-aa19-ae35b4b1a37b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task28/task2810/document.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3804/ApplicationExceptionMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3804/DatabaseExceptionMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3804/FactoryException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3804/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3804/UserExceptionMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3804/Условие.jrtc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3805/Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3805/ConnectionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3805/ConnectionMock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3805/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3805/SolutionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3805/WrongDataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3805/Условие.jrtc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3807/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3807/Условие.jrtc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3809/IncorrectAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3809/JavaRushBankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3809/LongPositive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3809/ReflectionAnnotationUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3809/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3809/Условие.jrtc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task28/task2810/model/HabrCareerStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task28/task2810/model/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task28/task2810/view/HtmlView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task28/task2810/view/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task28/task2810/view/backup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task28/task2810/view/vacancies.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3309/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3309/Условие.jrtc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3810/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3810/Changelog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3810/Date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3810/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3810/Revision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3810/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3810/Условие.jrtc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3811/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3811/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3811/Условие.jrtc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3812/Fox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3812/PrepareMyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3812/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3812/SomeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task38/task3812/Условие.jrtc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task28/task2810/Aggregator.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task28/task2810/Aggregator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task28/task2810/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task28/task2810/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task28/task2810/model/HHStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task28/task2810/model/HHStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task28/task2810/vo/Vacancy.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task28/task2810/vo/Vacancy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task28/task2810/Условие.jrtc" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task28/task2810/Условие.jrtc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3404/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3404/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3404/Условие.jrtc" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3404/Условие.jrtc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaRushPlugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JavaRushPlugin.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out.log" beforeDir="false" afterPath="$PROJECT_DIR$/out.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/4.JavaCollections/com/javarush/task/task28/task2810/Aggregator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/4.JavaCollections/com/javarush/task/task28/task2810/Aggregator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/4.JavaCollections/com/javarush/task/task28/task2810/Aggregator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/4.JavaCollections/com/javarush/task/task28/task2810/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/4.JavaCollections/com/javarush/task/task28/task2810/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/4.JavaCollections/com/javarush/task/task28/task2810/model/HHStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/4.JavaCollections/com/javarush/task/task28/task2810/model/HHStrategy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/4.JavaCollections/com/javarush/task/task28/task2810/vo/Vacancy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/4.JavaCollections/com/javarush/task/task28/task2810/vo/Vacancy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/4.JavaCollections/com/javarush/task/task28/task2810/Условие.jrtc" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/4.JavaCollections/com/javarush/task/task28/task2810/Условие.jrtc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/4.JavaCollections/com/javarush/task/task34/task3404/Условие.jrtc" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/4.JavaCollections/com/javarush/task/task34/task3404/Условие.jrtc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +86,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -118,17 +126,18 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25287357" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.javarush.task.task38.task3811" />
       <recent name="com.javarush.task.task27.task2712.kitchen" />
       <recent name="com.javarush.task.task30.task3003" />
       <recent name="com.javarush.task.task30.task3004" />
       <recent name="com.javarush.task.task14.task1408" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Aggregator">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -265,20 +274,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task33.task3310.Solution" />
-      <module name="4.JavaCollections" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javarush.task.task33.task3310.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javarush.task.task37.task3706.Solution" />
       <module name="4.JavaCollections" />
@@ -293,13 +288,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (5)" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task16.task1617.Solution" />
-      <module name="2.JavaCore" />
+    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task38.task3810.Solution" />
+      <module name="4.JavaCollections" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task16.task1617.*" />
+          <option name="PATTERN" value="com.javarush.task.task38.task3810.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -307,13 +302,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task33.task3310.Solution" />
-      <module name="4.JavaCollections" />
+    <configuration name="Solution (5)" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task16.task1617.Solution" />
+      <module name="2.JavaCore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task33.task3310.strategy.*" />
+          <option name="PATTERN" value="com.javarush.task.task16.task1617.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -413,19 +408,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution (5)" />
-      <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Aggregator" />
       <item itemvalue="Application.HHStrategy" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Solution (4)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.HHStrategy" />
-        <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Aggregator" />
-        <item itemvalue="Application.Solution (2)" />
+        <item itemvalue="Application.HHStrategy" />
+        <item itemvalue="Application.Solution (4)" />
+        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.Solution (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -631,6 +626,13 @@
       <workItem from="1608219479714" duration="4266000" />
       <workItem from="1608285141035" duration="970000" />
       <workItem from="1608287752766" duration="469000" />
+      <workItem from="1624000691483" duration="3033000" />
+      <workItem from="1624557174647" duration="722000" />
+      <workItem from="1624639902699" duration="1084000" />
+      <workItem from="1624693716768" duration="66000" />
+      <workItem from="1624693806711" duration="78000" />
+      <workItem from="1624694052332" duration="1629000" />
+      <workItem from="1624698167683" duration="17050000" />
     </task>
     <servers />
   </component>
@@ -658,97 +660,66 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="0" key="#Intentions" timestamp="1607940031262">
+    <state x="520" y="239" key="#Custom_Plugin_Repositories" timestamp="1624693565329">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="0" key="#Intentions/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1607940031262" />
-    <state x="391" y="163" key="#Notifications" timestamp="1606328852121">
+    <state x="520" y="239" key="#Custom_Plugin_Repositories/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624693565329" />
+    <state x="421" y="61" key="#HTTP_Proxy" timestamp="1624693568808">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="391" y="163" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1606328852121" />
-    <state x="415" y="142" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607524459939">
+    <state x="421" y="61" key="#HTTP_Proxy/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624693568808" />
+    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1624725902994">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="415" y="142" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1607524459939" />
-    <state x="395" y="209" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1606328390972">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="395" y="209" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1280.680@0.0.1280.680" timestamp="1606328390972" />
-    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1607849806497">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1607849806497" />
-    <state x="-1181" y="78" width="1095" height="620" maximized="true" key="DiffContextDialog" timestamp="1608288138298">
+    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624725902994" />
+    <state x="-1224" y="0" width="1170" height="936" maximized="true" key="DiffContextDialog" timestamp="1624707557922">
       <screen x="-1280" y="0" width="1280" height="984" />
     </state>
-    <state x="-1181" y="78" width="1095" height="620" maximized="true" key="DiffContextDialog/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1608288138298" />
-    <state x="413" y="97" key="FileChooserDialogImpl" timestamp="1607682668343">
+    <state x="-1224" y="0" width="1170" height="936" maximized="true" key="DiffContextDialog/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624707557922" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1624693881981">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="413" y="97" key="FileChooserDialogImpl/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1607682668343" />
-    <state x="420" y="94" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1606328819790" />
-    <state width="1237" height="117" key="GridCell.Tab.0.bottom" timestamp="1608288223612">
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624693881981" />
+    <state width="1237" height="283" key="GridCell.Tab.0.bottom" timestamp="1624722627521">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="117" key="GridCell.Tab.0.bottom/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1608288223612" />
-    <state width="1237" height="96" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607369113805" />
-    <state width="1237" height="117" key="GridCell.Tab.0.center" timestamp="1608288223611">
+    <state width="1237" height="283" key="GridCell.Tab.0.bottom/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624722627521" />
+    <state width="1237" height="283" key="GridCell.Tab.0.center" timestamp="1624722627520">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="117" key="GridCell.Tab.0.center/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1608288223611" />
-    <state width="1237" height="96" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1607369113804" />
-    <state width="1237" height="117" key="GridCell.Tab.0.left" timestamp="1608288223611">
+    <state width="1237" height="283" key="GridCell.Tab.0.center/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624722627520" />
+    <state width="1237" height="283" key="GridCell.Tab.0.left" timestamp="1624722627520">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="117" key="GridCell.Tab.0.left/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1608288223611" />
-    <state width="1237" height="96" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1607369113804" />
-    <state width="1237" height="117" key="GridCell.Tab.0.right" timestamp="1608288223611">
+    <state width="1237" height="283" key="GridCell.Tab.0.left/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624722627520" />
+    <state width="1237" height="283" key="GridCell.Tab.0.right" timestamp="1624722627520">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="117" key="GridCell.Tab.0.right/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1608288223611" />
-    <state width="1237" height="96" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607369113805" />
-    <state width="1237" height="189" key="GridCell.Tab.1.bottom" timestamp="1608226485114">
+    <state width="1237" height="283" key="GridCell.Tab.0.right/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624722627520" />
+    <state width="1237" height="283" key="GridCell.Tab.1.bottom" timestamp="1624722627521">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="189" key="GridCell.Tab.1.bottom/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1608226485114" />
-    <state width="1237" height="189" key="GridCell.Tab.1.center" timestamp="1608226485114">
+    <state width="1237" height="283" key="GridCell.Tab.1.bottom/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624722627521" />
+    <state width="1237" height="283" key="GridCell.Tab.1.center" timestamp="1624722627521">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="189" key="GridCell.Tab.1.center/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1608226485114" />
-    <state width="1237" height="189" key="GridCell.Tab.1.left" timestamp="1608226485113">
+    <state width="1237" height="283" key="GridCell.Tab.1.center/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624722627521" />
+    <state width="1237" height="283" key="GridCell.Tab.1.left" timestamp="1624722627521">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="189" key="GridCell.Tab.1.left/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1608226485113" />
-    <state width="1237" height="189" key="GridCell.Tab.1.right" timestamp="1608226485114">
+    <state width="1237" height="283" key="GridCell.Tab.1.left/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624722627521" />
+    <state width="1237" height="283" key="GridCell.Tab.1.right" timestamp="1624722627521">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="189" key="GridCell.Tab.1.right/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1608226485114" />
-    <state x="85" y="0" key="SettingsEditor" timestamp="1607847235737">
+    <state width="1237" height="283" key="GridCell.Tab.1.right/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624722627521" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1624693782965">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="85" y="0" key="SettingsEditor/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1607847235737" />
-    <state x="120" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1606378137163" />
-    <state x="383" y="445" width="529" height="229" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1607847187250">
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624693782965" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1624700304764">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="383" y="445" width="529" height="229" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1607847187250" />
-    <state x="0" y="0" width="587" height="680" key="find.popup" timestamp="1606823634106">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="0" y="0" width="587" height="680" key="find.popup/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1606823634106" />
-    <state x="91" y="0" key="new project wizard" timestamp="1607430895947">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="91" y="0" key="new project wizard/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1607430895947" />
-    <state x="296" y="150" width="672" height="677" key="run.anything.popup" timestamp="1606902587120">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="296" y="150" width="672" height="677" key="run.anything.popup/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1606902587120" />
-    <state x="296" y="150" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1606378245012" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1606474542897">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1606474542897" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624700304764" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -857,11 +828,6 @@
           <url>file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task28/task2801/Solution.java</url>
           <line>35</line>
           <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task28/task2810/model/HHStrategy.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task29/task2910/Game.java</url>
