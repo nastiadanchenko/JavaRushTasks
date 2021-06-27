@@ -31,7 +31,7 @@ public class HabrCareerStrategy implements Strategy {
             }
 
             if (doc == null) return null;
-            Elements vacanciesListHTML = doc.getElementsByAttributeValue("data-qa", "vacancy-serp__vacancy");
+            Elements vacanciesListHTML = doc.getElementsByClass("job");
 
             if (vacanciesListHTML == null || vacanciesListHTML.isEmpty()) break;
 
@@ -57,7 +57,7 @@ public class HabrCareerStrategy implements Strategy {
             }
 
             page++;
-            System.out.print(page + "\t");
+          //  System.out.print(page + "\t");
         }
 
         return resultVacancies;

@@ -9,10 +9,9 @@ import com.javarush.task.task28.task2810.view.HtmlView;
 public class Aggregator {
     public static void main(String[] args) {
         HtmlView htmlView = new HtmlView();
-        Provider provider = new Provider(new HHStrategy());
-        Provider providerHardCS = new Provider(new HabrCareerStrategy());
-        Model model = new Model(htmlView, provider, providerHardCS);
+        Model model = new Model(htmlView, new Provider(new HabrCareerStrategy()), new Provider(new HHStrategy()));
         Controller controller = new Controller(model);
+
         htmlView.setController(controller);
         htmlView.userCitySelectEmulationMethod();
 
