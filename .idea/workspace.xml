@@ -22,14 +22,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d86342d6-0860-464b-aa19-ae35b4b1a37b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3902/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3902/Условие.jrtc" afterDir="false" />
+    <list default="true" id="d86342d6-0860-464b-aa19-ae35b4b1a37b" name="Default" comment="Task 3902">
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/CashMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/ConsoleHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/exception/InterruptOperationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/exception/NotEnoughMoneyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/Условие.jrtc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task36/task3611/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task36/task3611/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaRushPlugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JavaRushPlugin.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out.log" beforeDir="false" afterPath="$PROJECT_DIR$/out.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/out.log.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/4.JavaCollections/com/javarush/task/task28/task2810/Aggregator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/4.JavaCollections/com/javarush/task/task28/task2810/Aggregator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/4.JavaCollections/com/javarush/task/task28/task2810/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/4.JavaCollections/com/javarush/task/task28/task2810/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/4.JavaCollections/com/javarush/task/task28/task2810/view/HtmlView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/4.JavaCollections/com/javarush/task/task28/task2810/view/HtmlView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/4.JavaCollections/com/javarush/task/task28/task2810/Условие.jrtc" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/4.JavaCollections/com/javarush/task/task28/task2810/Условие.jrtc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +59,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -605,8 +610,16 @@
       <workItem from="1624806977159" duration="2149000" />
       <workItem from="1625215379164" duration="1494000" />
       <workItem from="1627588238252" duration="29000" />
-      <workItem from="1627588289517" duration="753000" />
+      <workItem from="1627588289517" duration="2857000" />
     </task>
+    <task id="LOCAL-00001" summary="Task 3902">
+      <created>1627589354248</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1627589354248</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -632,6 +645,10 @@
       <collection />
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Task 3902" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 3902" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="520" y="239" key="#Custom_Plugin_Repositories" timestamp="1624693565329">
       <screen x="0" y="0" width="1280" height="680" />
@@ -645,36 +662,40 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624725902994" />
-    <state x="56" y="0" width="1170" height="647" key="DiffContextDialog" timestamp="1627589308261">
+    <state x="254" y="0" key="CommitChangelistDialog2" timestamp="1627589353305">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="254" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1627589353305" />
+    <state x="56" y="0" width="1170" height="647" key="DiffContextDialog" timestamp="1627591249905">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-1224" y="0" width="1170" height="936" maximized="true" key="DiffContextDialog/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624707557922" />
-    <state x="56" y="0" width="1170" height="647" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1627589308261" />
+    <state x="56" y="0" width="1170" height="647" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1627591249905" />
     <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1626433900483">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624693881981" />
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1626433900483" />
-    <state width="1237" height="220" key="GridCell.Tab.0.bottom" timestamp="1627588851204">
+    <state width="1237" height="220" key="GridCell.Tab.0.bottom" timestamp="1627589446501">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="283" key="GridCell.Tab.0.bottom/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624727500132" />
-    <state width="1237" height="220" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1627588851204" />
-    <state width="1237" height="220" key="GridCell.Tab.0.center" timestamp="1627588851203">
+    <state width="1237" height="220" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1627589446501" />
+    <state width="1237" height="220" key="GridCell.Tab.0.center" timestamp="1627589446501">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="283" key="GridCell.Tab.0.center/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624727500132" />
-    <state width="1237" height="220" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1627588851203" />
-    <state width="1237" height="220" key="GridCell.Tab.0.left" timestamp="1627588851203">
+    <state width="1237" height="220" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1627589446501" />
+    <state width="1237" height="220" key="GridCell.Tab.0.left" timestamp="1627589446501">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="283" key="GridCell.Tab.0.left/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624727500132" />
-    <state width="1237" height="220" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1627588851203" />
-    <state width="1237" height="220" key="GridCell.Tab.0.right" timestamp="1627588851204">
+    <state width="1237" height="220" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1627589446501" />
+    <state width="1237" height="220" key="GridCell.Tab.0.right" timestamp="1627589446501">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="283" key="GridCell.Tab.0.right/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624727500132" />
-    <state width="1237" height="220" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1627588851204" />
+    <state width="1237" height="220" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1627589446501" />
     <state width="1237" height="283" key="GridCell.Tab.1.bottom" timestamp="1624727500133">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -695,6 +716,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624693782965" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1627589358403">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1627589358403" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1624700304764">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
