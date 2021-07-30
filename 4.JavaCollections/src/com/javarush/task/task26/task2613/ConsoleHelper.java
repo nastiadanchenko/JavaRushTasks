@@ -54,4 +54,18 @@ public class ConsoleHelper {
         }
     }
 
+    public static Operation askOperation() {
+
+        while (true) {
+            writeMessage("Введите операцию");
+            String s = readString();
+            try {
+               return Operation.getAllowableOperationByOrdinal(Integer.parseInt(s));
+            } catch (IllegalArgumentException e) {
+                writeMessage("Пожалуйста, введите корректные данные");
+                continue;
+            }
+        }
+    }
+
 }
