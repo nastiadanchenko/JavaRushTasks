@@ -33,5 +33,8 @@ public class CurrencyManipulator {
         }
         return totalAmount;
     }
+    public boolean hasMoney() {
+        return !denominations.isEmpty();
+    }
 
 }
