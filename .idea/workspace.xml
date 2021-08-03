@@ -22,13 +22,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d86342d6-0860-464b-aa19-ae35b4b1a37b" name="Default" comment="Task 2613(7) add classes commands">
+    <list default="true" id="d86342d6-0860-464b-aa19-ae35b4b1a37b" name="Default" comment="Task 2613(8) refactor class CashMachine">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/CashMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/CashMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/CurrencyManipulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/CurrencyManipulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/CurrencyManipulatorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/CurrencyManipulatorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/ConsoleHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/ConsoleHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/command/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/command/CommandExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/command/CommandExecutor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/command/DepositCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/command/DepositCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/command/InfoCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/command/InfoCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/command/ExitCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/command/ExitCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/Условие.jrtc" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/Условие.jrtc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaRushPlugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JavaRushPlugin.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +96,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last.edited.regexp" value="Sample Text" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyTest" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -614,7 +616,7 @@
       <workItem from="1624806977159" duration="2149000" />
       <workItem from="1625215379164" duration="1494000" />
       <workItem from="1627588238252" duration="29000" />
-      <workItem from="1627588289517" duration="28689000" />
+      <workItem from="1627588289517" duration="32331000" />
     </task>
     <task id="LOCAL-00001" summary="Task 3902">
       <created>1627589354248</created>
@@ -658,7 +660,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627899226198</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Task 2613(8) refactor class CashMachine">
+      <created>1627902910336</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1627902910336</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -691,7 +700,8 @@
     <MESSAGE value="Task 2613(5) result operation DEPOSIT" />
     <MESSAGE value="Task 2613(6) implement method askOperation()" />
     <MESSAGE value="Task 2613(7) add classes commands" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 2613(7) add classes commands" />
+    <MESSAGE value="Task 2613(8) refactor class CashMachine" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 2613(8) refactor class CashMachine" />
   </component>
   <component name="WindowStateProjectService">
     <state x="520" y="239" key="#Custom_Plugin_Repositories" timestamp="1624693565329">
@@ -723,24 +733,24 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="392" y="95" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1280.680@0.0.1280.680" timestamp="1627677320535" />
-    <state x="130" y="0" key="CommitChangelistDialog2" timestamp="1627899220853">
+    <state x="130" y="0" key="CommitChangelistDialog2" timestamp="1627902909008">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="130" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1627899220853" />
+    <state x="130" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1627902909008" />
     <state x="459" y="210" key="DetectedRootsChooserDialog" timestamp="1627677295324">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="459" y="210" key="DetectedRootsChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1627677295324" />
-    <state x="56" y="0" width="1170" height="647" key="DiffContextDialog" timestamp="1627902845109">
+    <state x="56" y="0" width="1170" height="647" key="DiffContextDialog" timestamp="1628003327330">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-1224" y="0" width="1170" height="936" maximized="true" key="DiffContextDialog/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624707557922" />
-    <state x="56" y="0" width="1170" height="647" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1627902845109" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1627897450393">
+    <state x="56" y="0" width="1170" height="647" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1628003327330" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1627978621221">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624693881981" />
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1627897450393" />
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1627978621221" />
     <state width="1237" height="220" key="GridCell.Tab.0.bottom" timestamp="1627898158630">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -786,10 +796,10 @@
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624693782965" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1627898067385" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1627667001547">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1627902942386">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1627667001547" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1627902942386" />
     <state x="386" y="376" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1627898045156">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
