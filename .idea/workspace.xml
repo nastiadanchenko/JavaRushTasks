@@ -22,25 +22,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d86342d6-0860-464b-aa19-ae35b4b1a37b" name="Default" comment="Task 2613(10) implement method execute() class's WithdrawCommand">
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/command/LoginCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/resources/deposit_en.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/resources/exit_en.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/resources/info_en.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/resources/verifiedCards.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3910/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3910/Условие.jrtc" afterDir="false" />
+    <list default="true" id="d86342d6-0860-464b-aa19-ae35b4b1a37b" name="Default" comment="Task 2613(13) add .resources &amp; initialize variable ResourceBundle.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task15/task1527/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task15/task1527/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task15/task1527/Условие.jrtc" beforeDir="false" afterPath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task15/task1527/Условие.jrtc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task27/task2712/Tablet.java" beforeDir="false" afterPath="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task27/task2712/Tablet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/CashMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/CashMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/CurrencyManipulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/CurrencyManipulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/Operation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/command/CommandExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/command/CommandExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/ConsoleHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/ConsoleHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/command/DepositCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/command/DepositCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/command/ExitCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/command/ExitCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/command/InfoCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/command/InfoCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/command/LoginCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/command/LoginCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/command/WithdrawCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/command/WithdrawCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/Условие.jrtc" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task26/task2613/Условие.jrtc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaRushPlugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JavaRushPlugin.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out.log" beforeDir="false" afterPath="$PROJECT_DIR$/out.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +114,7 @@
       <recent name="com.javarush.task.task14.task1408" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
+  <component name="RunManager" selected="Application.Solution (3)">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -214,20 +209,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration name="Aggregator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task28.task2810.Aggregator" />
-      <module name="4.JavaCollections" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javarush.task.task28.task2810.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CashMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javarush.task.task26.task2613.CashMachine" />
       <module name="4.JavaCollections" />
@@ -263,6 +244,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.javarush.task.task39.task3910.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task15.task1527.Solution" />
+      <module name="2.JavaCore" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task15.task1527.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -390,19 +385,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution (5)" />
-      <item itemvalue="Application.Aggregator" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.CashMachine" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.CashMachine" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Aggregator" />
       </list>
     </recent_temporary>
   </component>
@@ -621,6 +616,7 @@
       <workItem from="1627588289517" duration="46385000" />
       <workItem from="1629735575923" duration="1568000" />
       <workItem from="1629737165205" duration="8338000" />
+      <workItem from="1629873246934" duration="11138000" />
     </task>
     <task id="LOCAL-00001" summary="Task 3902">
       <created>1627589354248</created>
@@ -685,7 +681,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628243453441</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Task 2613(13) add .resources &amp; initialize variable ResourceBundle.">
+      <created>1629873749667</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1629873749667</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -721,7 +724,8 @@
     <MESSAGE value="Task 2613(8) refactor class CashMachine" />
     <MESSAGE value="Task 2613(9) implement method execute() class's ExitCommand" />
     <MESSAGE value="Task 2613(10) implement method execute() class's WithdrawCommand" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 2613(10) implement method execute() class's WithdrawCommand" />
+    <MESSAGE value="Task 2613(13) add .resources &amp; initialize variable ResourceBundle." />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 2613(13) add .resources &amp; initialize variable ResourceBundle." />
   </component>
   <component name="WindowStateProjectService">
     <state x="520" y="239" key="#Custom_Plugin_Repositories" timestamp="1624693565329">
@@ -753,60 +757,64 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="392" y="95" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1280.680@0.0.1280.680" timestamp="1627677320535" />
-    <state x="130" y="0" key="CommitChangelistDialog2" timestamp="1628243451653">
+    <state x="214" y="0" key="CommitChangelistDialog2" timestamp="1629873748935">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="130" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1628243451653" />
+    <state x="214" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629873748935" />
     <state x="459" y="210" key="DetectedRootsChooserDialog" timestamp="1627677295324">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="459" y="210" key="DetectedRootsChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1627677295324" />
-    <state x="56" y="0" width="1170" height="650" key="DiffContextDialog" timestamp="1629788596693">
+    <state x="56" y="0" width="1170" height="650" key="DiffContextDialog" timestamp="1629881269522">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-1224" y="0" width="1170" height="936" maximized="true" key="DiffContextDialog/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624707557922" />
-    <state x="56" y="0" width="1170" height="650" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1629788596693" />
+    <state x="56" y="0" width="1170" height="650" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1629881269522" />
     <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1628264714839">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624693881981" />
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1628264714839" />
-    <state width="1237" height="220" key="GridCell.Tab.0.bottom" timestamp="1629873229393">
+    <state width="1237" height="145" key="GridCell.Tab.0.bottom" timestamp="1629887672100">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="283" key="GridCell.Tab.0.bottom/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624727500132" />
-    <state width="1237" height="220" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1629873229393" />
-    <state width="1237" height="220" key="GridCell.Tab.0.center" timestamp="1629873229393">
+    <state width="1237" height="145" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1629887672100" />
+    <state width="1237" height="145" key="GridCell.Tab.0.center" timestamp="1629887672099">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="283" key="GridCell.Tab.0.center/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624727500132" />
-    <state width="1237" height="220" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1629873229393" />
-    <state width="1237" height="220" key="GridCell.Tab.0.left" timestamp="1629873229392">
+    <state width="1237" height="145" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1629887672099" />
+    <state width="1237" height="145" key="GridCell.Tab.0.left" timestamp="1629887672099">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="283" key="GridCell.Tab.0.left/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624727500132" />
-    <state width="1237" height="220" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1629873229392" />
-    <state width="1237" height="220" key="GridCell.Tab.0.right" timestamp="1629873229393">
+    <state width="1237" height="145" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1629887672099" />
+    <state width="1237" height="145" key="GridCell.Tab.0.right" timestamp="1629887672099">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="283" key="GridCell.Tab.0.right/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624727500132" />
-    <state width="1237" height="220" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1629873229393" />
-    <state width="1237" height="283" key="GridCell.Tab.1.bottom" timestamp="1624727500133">
+    <state width="1237" height="145" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1629887672099" />
+    <state width="1237" height="207" key="GridCell.Tab.1.bottom" timestamp="1629884886940">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="283" key="GridCell.Tab.1.bottom/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624727500133" />
-    <state width="1237" height="283" key="GridCell.Tab.1.center" timestamp="1624727500133">
+    <state width="1237" height="207" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1629884886940" />
+    <state width="1237" height="207" key="GridCell.Tab.1.center" timestamp="1629884886940">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="283" key="GridCell.Tab.1.center/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624727500133" />
-    <state width="1237" height="283" key="GridCell.Tab.1.left" timestamp="1624727500132">
+    <state width="1237" height="207" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1629884886940" />
+    <state width="1237" height="207" key="GridCell.Tab.1.left" timestamp="1629884886940">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="283" key="GridCell.Tab.1.left/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624727500132" />
-    <state width="1237" height="283" key="GridCell.Tab.1.right" timestamp="1624727500133">
+    <state width="1237" height="207" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1629884886940" />
+    <state width="1237" height="207" key="GridCell.Tab.1.right" timestamp="1629884886940">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="283" key="GridCell.Tab.1.right/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624727500133" />
+    <state width="1237" height="207" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1629884886940" />
     <state x="392" y="61" key="RollbackChangesDialog" timestamp="1627675431498">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -824,6 +832,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="386" y="376" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.680@0.0.1280.680" timestamp="1627898045156" />
+    <state x="119" y="67" width="1042" height="613" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1629882211459">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="119" y="67" width="1042" height="613" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680@0.0.1280.680" timestamp="1629882211459" />
     <state x="91" y="1" key="new project wizard" timestamp="1628264727581">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
