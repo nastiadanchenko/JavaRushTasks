@@ -31,7 +31,7 @@ public class Tablet extends Observable {
             newOrder = new Order(this);
             try {
                 AdvertisementManager manager = new AdvertisementManager(newOrder.getTotalCookingTime() * 60);
-                Advertisement adv = new Advertisement(newOrder,)
+           //     Advertisement adv = new Advertisement(newOrder,)
                StatisticManager.getInstance().register(new VideoSelectedEventDataRow(manager.getStorage(),manager.getStorage().list().get(),newOrder.getTotalCookingTime()*60));
                 manager.processVideos();
             } catch (NoVideoAvailableException e) {
