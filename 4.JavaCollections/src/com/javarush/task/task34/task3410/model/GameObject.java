@@ -3,7 +3,7 @@ package com.javarush.task.task34.task3410.model;
 import java.awt.*;
 
 public abstract class GameObject {
-    private int x,y, width,height;
+    int x,y, width,height;
 
 
     public GameObject(int x, int y) {
