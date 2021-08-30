@@ -22,11 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d86342d6-0860-464b-aa19-ae35b4b1a37b" name="Default" comment="Task 3410(5) add class Box,Player">
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3410/model/GameObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3410/model/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3410/model/Wall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d86342d6-0860-464b-aa19-ae35b4b1a37b" name="Default" comment="Task 3410(6-8) add classes Home, Wall, GameObjects.">
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3410/controller/EventListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3410/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3410/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3410/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3410/model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3410/view/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3410/view/Field.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3410/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3410/view/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3410/Условие.jrtc" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3410/Условие.jrtc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaRushPlugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JavaRushPlugin.properties" afterDir="false" />
     </list>
@@ -50,9 +51,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -610,7 +611,7 @@
       <workItem from="1629735575923" duration="1568000" />
       <workItem from="1629737165205" duration="8338000" />
       <workItem from="1629873246934" duration="20564000" />
-      <workItem from="1630313319393" duration="13898000" />
+      <workItem from="1630313319393" duration="14556000" />
     </task>
     <task id="LOCAL-00001" summary="Task 3902">
       <created>1627589354248</created>
@@ -752,7 +753,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630337286296</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Task 3410(6-8) add classes Home, Wall, GameObjects.">
+      <created>1630338475939</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1630338475939</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -799,7 +807,8 @@
     <MESSAGE value="Task 3410(2) add class GameObject" />
     <MESSAGE value="Task 3410(4) add class CollisionObject, Direction" />
     <MESSAGE value="Task 3410(5) add class Box,Player" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 3410(5) add class Box,Player" />
+    <MESSAGE value="Task 3410(6-8) add classes Home, Wall, GameObjects." />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 3410(6-8) add classes Home, Wall, GameObjects." />
   </component>
   <component name="WindowStateProjectService">
     <state x="520" y="239" key="#Custom_Plugin_Repositories" timestamp="1624693565329">
@@ -822,11 +831,11 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="415" y="142" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1627897067752" />
-    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1630338136571">
+    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1630338981384">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624725902994" />
-    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1630338136571" />
+    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1630338981384" />
     <state x="492" y="34" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1627677312582">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -835,10 +844,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="392" y="95" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1280.680@0.0.1280.680" timestamp="1627677320535" />
-    <state x="214" y="0" key="CommitChangelistDialog2" timestamp="1630337284720">
+    <state x="214" y="0" key="CommitChangelistDialog2" timestamp="1630338474663">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="214" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1630337284720" />
+    <state x="214" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1630338474663" />
     <state x="459" y="210" key="DetectedRootsChooserDialog" timestamp="1627677295324">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -906,10 +915,14 @@
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624693782965" />
     <state x="153" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1630314933979" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1630313390366">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1630338807047">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1630313390366" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1280.680@0.0.1280.680" timestamp="1630338807047" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1630338491076">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1630338491076" />
     <state x="386" y="376" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1630314903407">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
