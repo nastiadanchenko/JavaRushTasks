@@ -1,5 +1,6 @@
 package com.javarush.task.task40.task4004;
 
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -31,6 +32,15 @@ public class Solution {
 
     public static boolean isPointInPolygon(Point point, List<Point> polygon) {
         //напишите тут ваш код
+        boolean result = false;
+        Polygon myPolygon = new Polygon();
+
+        for (Point pointIsPolygon : polygon) {
+            myPolygon.addPoint(pointIsPolygon.x,pointIsPolygon.y);
+        }
+        if (myPolygon.contains(point.x,point.y))
+            result = true;
+        return result;
     }
 
 }

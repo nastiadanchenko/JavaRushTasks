@@ -22,17 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d86342d6-0860-464b-aa19-ae35b4b1a37b" name="Default" comment="Task 4011 change GET to POST">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_mail_javax_mail_api_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task40/task4003/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task40/task4003/Условие.jrtc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task40/task4004/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task40/task4004/Условие.jrtc" afterDir="false" />
+    <list default="true" id="d86342d6-0860-464b-aa19-ae35b4b1a37b" name="Default" comment="Task 4004">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.JavaCollections/4.JavaCollections.iml" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/4.JavaCollections.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task40/task4011/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task40/task4011/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task40/task4004/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task40/task4004/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaRushPlugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JavaRushPlugin.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out.log" beforeDir="false" afterPath="$PROJECT_DIR$/out.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +104,7 @@
       <recent name="com.javarush.task.task14.task1408" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (4)">
+  <component name="RunManager" selected="Application.Solution">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -206,20 +199,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration name="CashMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task26.task2613.CashMachine" />
-      <module name="4.JavaCollections" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javarush.task.task26.task2613.command.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javarush.task.task33.task3306.Solution" />
       <module name="4.JavaCollections" />
@@ -283,6 +262,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.javarush.task.task16.task1617.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task40.task4004.Solution" />
+      <module name="4.JavaCollections" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task40.task4004.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -382,19 +375,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution (5)" />
-      <item itemvalue="Application.CashMachine" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (4)" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.CashMachine" />
       </list>
     </recent_temporary>
   </component>
@@ -614,7 +607,7 @@
       <workItem from="1629735575923" duration="1568000" />
       <workItem from="1629737165205" duration="8338000" />
       <workItem from="1629873246934" duration="20564000" />
-      <workItem from="1630313319393" duration="2592000" />
+      <workItem from="1630313319393" duration="5828000" />
     </task>
     <task id="LOCAL-00001" summary="Task 3902">
       <created>1627589354248</created>
@@ -714,7 +707,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629972871524</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Task 4004">
+      <created>1630316770890</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1630316770891</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -755,7 +755,8 @@
     <MESSAGE value="Task 4001" />
     <MESSAGE value="Task 4012" />
     <MESSAGE value="Task 4011 change GET to POST" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 4011 change GET to POST" />
+    <MESSAGE value="Task 4004" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 4004" />
   </component>
   <component name="WindowStateProjectService">
     <state x="520" y="239" key="#Custom_Plugin_Repositories" timestamp="1624693565329">
@@ -791,44 +792,44 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="392" y="95" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1280.680@0.0.1280.680" timestamp="1627677320535" />
-    <state x="214" y="0" key="CommitChangelistDialog2" timestamp="1629972869926">
+    <state x="214" y="0" key="CommitChangelistDialog2" timestamp="1630316768747">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="214" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629972869926" />
+    <state x="214" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1630316768747" />
     <state x="459" y="210" key="DetectedRootsChooserDialog" timestamp="1627677295324">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="459" y="210" key="DetectedRootsChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1627677295324" />
-    <state x="56" y="0" width="1170" height="650" key="DiffContextDialog" timestamp="1630316727514">
+    <state x="56" y="0" width="1170" height="650" key="DiffContextDialog" timestamp="1630318398372">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-1224" y="0" width="1170" height="936" maximized="true" key="DiffContextDialog/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624707557922" />
-    <state x="56" y="0" width="1170" height="650" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1630316727514" />
+    <state x="56" y="0" width="1170" height="650" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1630318398372" />
     <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1629921269279">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624693881981" />
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1629921269279" />
-    <state width="1237" height="207" key="GridCell.Tab.0.bottom" timestamp="1630065864263">
+    <state width="1237" height="145" key="GridCell.Tab.0.bottom" timestamp="1630318112458">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="283" key="GridCell.Tab.0.bottom/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624727500132" />
-    <state width="1237" height="207" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1630065864263" />
-    <state width="1237" height="207" key="GridCell.Tab.0.center" timestamp="1630065864263">
+    <state width="1237" height="145" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1630318112458" />
+    <state width="1237" height="145" key="GridCell.Tab.0.center" timestamp="1630318112457">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="283" key="GridCell.Tab.0.center/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624727500132" />
-    <state width="1237" height="207" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1630065864263" />
-    <state width="1237" height="207" key="GridCell.Tab.0.left" timestamp="1630065864262">
+    <state width="1237" height="145" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1630318112457" />
+    <state width="1237" height="145" key="GridCell.Tab.0.left" timestamp="1630318112457">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="283" key="GridCell.Tab.0.left/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624727500132" />
-    <state width="1237" height="207" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1630065864262" />
-    <state width="1237" height="207" key="GridCell.Tab.0.right" timestamp="1630065864263">
+    <state width="1237" height="145" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1630318112457" />
+    <state width="1237" height="145" key="GridCell.Tab.0.right" timestamp="1630318112458">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="283" key="GridCell.Tab.0.right/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624727500132" />
-    <state width="1237" height="207" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1630065864263" />
+    <state width="1237" height="145" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1630318112458" />
     <state width="1237" height="207" key="GridCell.Tab.1.bottom" timestamp="1630065864265">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
