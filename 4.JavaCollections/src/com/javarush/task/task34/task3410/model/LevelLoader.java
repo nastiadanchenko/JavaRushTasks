@@ -23,7 +23,7 @@ public class LevelLoader {
 
         boxes.add(new Box(x, y + 0 * Model.FIELD_CELL_SIZE));
         homes.add(new Home(x, y + 1 * Model.FIELD_CELL_SIZE));
-
+        
         Player player = new Player(x, y + 2 * Model.FIELD_CELL_SIZE);
 
         return new GameObjects(walls, boxes, homes, player);
