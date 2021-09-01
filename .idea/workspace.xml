@@ -22,10 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d86342d6-0860-464b-aa19-ae35b4b1a37b" name="Default" comment="Task 3410(13) refactoring class Controller">
-      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3410/view/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3410/view/Field.java" afterDir="false" />
+    <list default="true" id="d86342d6-0860-464b-aa19-ae35b4b1a37b" name="Default" comment="Task 3410(13) add nested class KeyHandler class's Field">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3410/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3410/model/Model.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3410/Условие.jrtc" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3410/Условие.jrtc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaRushPlugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JavaRushPlugin.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out.log" beforeDir="false" afterPath="$PROJECT_DIR$/out.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -609,7 +611,8 @@
       <workItem from="1629873246934" duration="20564000" />
       <workItem from="1630313319393" duration="15832000" />
       <workItem from="1630400214246" duration="1351000" />
-      <workItem from="1630423276259" duration="3193000" />
+      <workItem from="1630423276259" duration="6691000" />
+      <workItem from="1630430030980" duration="3532000" />
     </task>
     <task id="LOCAL-00001" summary="Task 3902">
       <created>1627589354248</created>
@@ -793,7 +796,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630425457436</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Task 3410(13) add nested class KeyHandler class's Field">
+      <created>1630426628654</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1630426628654</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -820,7 +830,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task 2613" />
     <MESSAGE value="Task 2613(3-4)" />
     <MESSAGE value="Task 2613(5) result operation DEPOSIT" />
     <MESSAGE value="Task 2613(6) implement method askOperation()" />
@@ -845,7 +854,8 @@
     <MESSAGE value="Task 3410(11) refactoring class Model" />
     <MESSAGE value="Task 3410(11) refactoring class Field" />
     <MESSAGE value="Task 3410(13) refactoring class Controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 3410(13) refactoring class Controller" />
+    <MESSAGE value="Task 3410(13) add nested class KeyHandler class's Field" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 3410(13) add nested class KeyHandler class's Field" />
   </component>
   <component name="WindowStateProjectService">
     <state x="520" y="239" key="#Custom_Plugin_Repositories" timestamp="1624693565329">
@@ -881,19 +891,19 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="392" y="95" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1280.680@0.0.1280.680" timestamp="1627677320535" />
-    <state x="322" y="0" key="CommitChangelistDialog2" timestamp="1630425456218">
+    <state x="322" y="0" key="CommitChangelistDialog2" timestamp="1630426627348">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="322" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1630425456218" />
+    <state x="322" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1630426627348" />
     <state x="459" y="210" key="DetectedRootsChooserDialog" timestamp="1627677295324">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="459" y="210" key="DetectedRootsChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1627677295324" />
-    <state x="56" y="0" width="1170" height="650" key="DiffContextDialog" timestamp="1630426472427">
+    <state x="56" y="0" width="1170" height="650" key="DiffContextDialog" timestamp="1630486492676">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-1224" y="0" width="1170" height="936" maximized="true" key="DiffContextDialog/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624707557922" />
-    <state x="56" y="0" width="1170" height="650" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1630426472427" />
+    <state x="56" y="0" width="1170" height="650" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1630486492676" />
     <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1629921269279">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -956,10 +966,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1280.680@0.0.1280.680" timestamp="1630338807047" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1630400298101">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1630429499231">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1630400298101" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1630429499231" />
     <state x="386" y="376" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1630314903407">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
