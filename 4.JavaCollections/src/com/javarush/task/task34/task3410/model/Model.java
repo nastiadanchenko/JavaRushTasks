@@ -101,4 +101,6 @@ public class Model {
         if (numberHouses == boxesAboveTheHouses)
             eventListener.levelCompleted(currentLevel);
     }
+
+
 }
