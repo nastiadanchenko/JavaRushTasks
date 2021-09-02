@@ -22,13 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d86342d6-0860-464b-aa19-ae35b4b1a37b" name="Default" comment="Task 3410(15) implement move() class's Model">
+    <list default="true" id="d86342d6-0860-464b-aa19-ae35b4b1a37b" name="Default" comment="Task 3410(16) implement getLevelLoader() class's LevelLoader">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3410/model/LevelLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3410/model/LevelLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3410/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3410/model/Model.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3410/Условие.jrtc" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task34/task3410/Условие.jrtc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaRushPlugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JavaRushPlugin.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out.log" beforeDir="false" afterPath="$PROJECT_DIR$/out.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -613,7 +610,7 @@
       <workItem from="1630313319393" duration="15832000" />
       <workItem from="1630400214246" duration="1351000" />
       <workItem from="1630423276259" duration="6691000" />
-      <workItem from="1630430030980" duration="5085000" />
+      <workItem from="1630430030980" duration="7090000" />
     </task>
     <task id="LOCAL-00001" summary="Task 3902">
       <created>1627589354248</created>
@@ -811,7 +808,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630486901365</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Task 3410(16) implement getLevelLoader() class's LevelLoader">
+      <created>1630488116617</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1630488116617</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -838,7 +842,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task 2613(5) result operation DEPOSIT" />
     <MESSAGE value="Task 2613(6) implement method askOperation()" />
     <MESSAGE value="Task 2613(7) add classes commands" />
     <MESSAGE value="Task 2613(8) refactor class CashMachine" />
@@ -863,7 +866,8 @@
     <MESSAGE value="Task 3410(13) refactoring class Controller" />
     <MESSAGE value="Task 3410(13) add nested class KeyHandler class's Field" />
     <MESSAGE value="Task 3410(15) implement move() class's Model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 3410(15) implement move() class's Model" />
+    <MESSAGE value="Task 3410(16) implement getLevelLoader() class's LevelLoader" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 3410(16) implement getLevelLoader() class's LevelLoader" />
   </component>
   <component name="WindowStateProjectService">
     <state x="520" y="239" key="#Custom_Plugin_Repositories" timestamp="1624693565329">
@@ -899,10 +903,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="392" y="95" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1280.680@0.0.1280.680" timestamp="1627677320535" />
-    <state x="322" y="0" key="CommitChangelistDialog2" timestamp="1630486900116">
+    <state x="322" y="0" key="CommitChangelistDialog2" timestamp="1630488115435">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="322" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1630486900116" />
+    <state x="322" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1630488115435" />
     <state x="459" y="210" key="DetectedRootsChooserDialog" timestamp="1627677295324">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -974,10 +978,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1280.680@0.0.1280.680" timestamp="1630338807047" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1630429499231">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1630489004261">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1630429499231" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1630489004261" />
     <state x="386" y="376" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1630314903407">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
