@@ -29,5 +29,6 @@
     <orderEntry type="library" name="com.sun.xml.bind:jaxb-impl:2.3.2" level="project" />
     <orderEntry type="library" name="org.apache.httpcomponents:httpclient:4.5.13" level="project" />
     <orderEntry type="library" name="javax.mail:javax.mail-api:1.6.2" level="project" />
+    <orderEntry type="library" name="junit:junit:4.13" level="project" />
   </component>
 </module>
