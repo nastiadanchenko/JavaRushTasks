@@ -22,12 +22,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d86342d6-0860-464b-aa19-ae35b4b1a37b" name="Default" comment="Task 3910(14) add testing class FunctionalTest">
-      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3310/tests/SpeedTest.java" afterDir="false" />
+    <list default="true" id="d86342d6-0860-464b-aa19-ae35b4b1a37b" name="Default" comment="Task 3910(15) add testing class SpeedTest">
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3905/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3905/PhotoPaint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3905/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3905/Условие.jrtc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3906/ElectricPowerSwitch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3906/LightBulb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3906/SecuritySystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3906/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3906/Switchable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3906/Условие.jrtc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3909/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3909/Условие.jrtc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3310/Условие.jrtc" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task33/task3310/Условие.jrtc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaRushPlugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JavaRushPlugin.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out.log" beforeDir="false" afterPath="$PROJECT_DIR$/out.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +59,8 @@
       <list>
         <option value="AnnotationType" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -618,7 +627,7 @@
       <workItem from="1630688544952" duration="2226000" />
       <workItem from="1630846487230" duration="18050000" />
       <workItem from="1631085962879" duration="605000" />
-      <workItem from="1631170726154" duration="3099000" />
+      <workItem from="1631170726154" duration="6705000" />
     </task>
     <task id="LOCAL-00001" summary="Task 3902">
       <created>1627589354248</created>
@@ -844,7 +853,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631085036530</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Task 3910(15) add testing class SpeedTest">
+      <created>1631182362430</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1631182362430</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -871,7 +887,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task 2613(9) implement method execute() class's ExitCommand" />
     <MESSAGE value="Task 2613(10) implement method execute() class's WithdrawCommand" />
     <MESSAGE value="Task 2613(13) add .resources &amp; initialize variable ResourceBundle." />
     <MESSAGE value="Task 1527(13) purser URL" />
@@ -896,7 +911,8 @@
     <MESSAGE value="Task 40.. done" />
     <MESSAGE value="Task 390 done" />
     <MESSAGE value="Task 3910(14) add testing class FunctionalTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 3910(14) add testing class FunctionalTest" />
+    <MESSAGE value="Task 3910(15) add testing class SpeedTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 3910(15) add testing class SpeedTest" />
   </component>
   <component name="WindowStateProjectService">
     <state x="520" y="239" key="#Custom_Plugin_Repositories" timestamp="1624693565329">
@@ -928,23 +944,27 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="492" y="34" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1280.680@0.0.1280.680" timestamp="1627677312582" />
+    <state x="346" y="51" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1631183231604">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="346" y="51" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1631183231604" />
     <state x="392" y="95" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1627677320535">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="392" y="95" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1280.680@0.0.1280.680" timestamp="1627677320535" />
-    <state x="322" y="0" key="CommitChangelistDialog2" timestamp="1631085035662">
+    <state x="322" y="0" key="CommitChangelistDialog2" timestamp="1631182361363">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="322" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1631085035662" />
+    <state x="322" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1631182361363" />
     <state x="459" y="210" key="DetectedRootsChooserDialog" timestamp="1627677295324">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="459" y="210" key="DetectedRootsChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1627677295324" />
-    <state x="56" y="0" width="1170" height="650" key="DiffContextDialog" timestamp="1631182329778">
+    <state x="56" y="0" width="1170" height="650" key="DiffContextDialog" timestamp="1631185679132">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-1224" y="0" width="1170" height="936" maximized="true" key="DiffContextDialog/0.0.1280.680/-1280.0.1280.984@0.0.1280.680" timestamp="1624707557922" />
-    <state x="56" y="0" width="1170" height="650" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1631182329778" />
+    <state x="56" y="0" width="1170" height="650" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1631185679132" />
     <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1630656709858">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
