@@ -1,6 +1,7 @@
 package com.javarush.games.game2048;
 
-import com.javarush.engine.cell.*;
+import com.javarush.engine.cell.Color;
+import com.javarush.engine.cell.Game;
 
 public class Game2048 extends Game {
     private static final int SIDE = 4;
@@ -60,4 +61,21 @@ public class Game2048 extends Game {
         String str = value > 0 ? "" + value : "";
         setCellValueEx(x, y, color, str);
     }
+    private boolean compressRow(int[] row){
+        boolean isCompress = false;
+        int index = 0;
+        for (int x = 0; x < SIDE; x++) {
+            if (row[x] > 0) {
+                if (x != index) {
+                    row[index] = row[x];
+                    row[x] = 0;
+                    isCompress = true;
+                }
+                index++;
+            }
+        }
+        return isCompress;
+    }
+
 }
+

@@ -22,123 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d86342d6-0860-464b-aa19-ae35b4b1a37b" name="Default" comment="Task 3909">
-      <change afterPath="$PROJECT_DIR$/8.Games/8.Games.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Game2048.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Условие.jrtc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/GameObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/MinesweeperGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/Условие.jrtc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/snake/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/snake/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/snake/GameObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/snake/Snake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/snake/SnakeGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/snake/Условие.jrtc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/desktop-game-engine.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-core-console-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-core-console-l1-2-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-core-datetime-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-core-debug-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-core-errorhandling-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-core-file-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-core-file-l1-2-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-core-file-l2-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-core-handle-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-core-heap-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-core-interlocked-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-core-libraryloader-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-core-localization-l1-2-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-core-memory-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-core-namedpipe-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-core-processenvironment-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-core-processthreads-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-core-processthreads-l1-1-1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-core-profile-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-core-rtlsupport-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-core-string-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-core-synch-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-core-synch-l1-2-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-core-sysinfo-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-core-timezone-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-core-util-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-crt-conio-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-crt-convert-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-crt-environment-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-crt-filesystem-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-crt-heap-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-crt-locale-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-crt-math-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-crt-multibyte-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-crt-private-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-crt-process-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-crt-runtime-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-crt-stdio-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-crt-string-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-crt-time-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/api-ms-win-crt-utility-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/decora_sse.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/fxplugins.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/glass.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/glib-lite.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/gstreamer-lite.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/javafx_font.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/javafx_iio.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/jfxmedia.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/jfxwebkit.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/msvcp140.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/prism_common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/prism_d3d.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/prism_sw.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/ucrtbase.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/bin/vcruntime140.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.base/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.base/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.base/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.controls/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.controls/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.controls/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.fxml/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.fxml/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.fxml/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.graphics/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.graphics/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.graphics/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.graphics/jpeg_fx.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.graphics/mesa3d.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.media/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.media/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.media/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.media/directshow.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.media/glib.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.media/gstreamer.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.media/libffi.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.swing/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.swing/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.swing/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.web/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.web/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.web/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.web/icu_web.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.web/libxml2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.web/libxslt.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/legal/javafx.web/webkit.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/lib/javafx-swt.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/lib/javafx.base.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/lib/javafx.controls.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/lib/javafx.fxml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/lib/javafx.graphics.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/lib/javafx.media.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/lib/javafx.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/lib/javafx.swing.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/lib/javafx.web.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-sdk-15/lib/src.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="d86342d6-0860-464b-aa19-ae35b4b1a37b" name="Default" comment="Task game2048">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.JavaSyntax/1.JavaSyntax.iml" beforeDir="false" afterPath="$PROJECT_DIR$/1.JavaSyntax/1.JavaSyntax.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.JavaCollections/4.JavaCollections.iml" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/4.JavaCollections.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3905/PhotoPaint.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3905/PhotoPaint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Game2048.java" beforeDir="false" afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Game2048.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaRushPlugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JavaRushPlugin.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out.log" beforeDir="false" afterPath="$PROJECT_DIR$/out.log" afterDir="false" />
     </list>
@@ -737,7 +623,8 @@
       <workItem from="1637740417170" duration="2235000" />
       <workItem from="1637743769386" duration="1318000" />
       <workItem from="1637775685994" duration="1590000" />
-      <workItem from="1637777308722" duration="2169000" />
+      <workItem from="1637777308722" duration="4468000" />
+      <workItem from="1638212962690" duration="8163000" />
     </task>
     <task id="LOCAL-00001" summary="Task 3902">
       <created>1627589354248</created>
@@ -977,7 +864,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631186189540</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Task game2048">
+      <created>1637781607683</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1637781607684</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1005,7 +899,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Task 2613(13) add .resources &amp; initialize variable ResourceBundle." />
     <MESSAGE value="Task 1527(13) purser URL" />
     <MESSAGE value="Task 4001" />
     <MESSAGE value="Task 4012" />
@@ -1030,7 +923,8 @@
     <MESSAGE value="Task 3910(14) add testing class FunctionalTest" />
     <MESSAGE value="Task 3910(15) add testing class SpeedTest" />
     <MESSAGE value="Task 3909" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 3909" />
+    <MESSAGE value="Task game2048" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task game2048" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1139,6 +1033,46 @@
           <url>file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task28/task2801/Solution.java</url>
           <line>35</line>
           <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Game2048.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Game2048.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Game2048.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Game2048.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Game2048.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Game2048.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Game2048.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Game2048.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task29/task2910/Game.java</url>
