@@ -22,10 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d86342d6-0860-464b-aa19-ae35b4b1a37b" name="Default" comment="Task game2048">
+    <list default="true" id="d86342d6-0860-464b-aa19-ae35b4b1a37b" name="Default" comment="Task game2048(7)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Game2048.java" beforeDir="false" afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Game2048.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaRushPlugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JavaRushPlugin.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out.log" beforeDir="false" afterPath="$PROJECT_DIR$/out.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -624,7 +622,8 @@
       <workItem from="1637743769386" duration="1318000" />
       <workItem from="1637775685994" duration="1590000" />
       <workItem from="1637777308722" duration="4468000" />
-      <workItem from="1638212962690" duration="8163000" />
+      <workItem from="1638212962690" duration="9590000" />
+      <workItem from="1638283828281" duration="1234000" />
     </task>
     <task id="LOCAL-00001" summary="Task 3902">
       <created>1627589354248</created>
@@ -871,7 +870,21 @@
       <option name="project" value="LOCAL" />
       <updated>1637781607684</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Task game2048(7)">
+      <created>1638270702582</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1638270702582</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Task game2048(7)">
+      <created>1638270720866</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1638270720866</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -899,7 +912,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Task 1527(13) purser URL" />
     <MESSAGE value="Task 4001" />
     <MESSAGE value="Task 4012" />
     <MESSAGE value="Task 4011 change GET to POST" />
@@ -924,7 +936,8 @@
     <MESSAGE value="Task 3910(15) add testing class SpeedTest" />
     <MESSAGE value="Task 3909" />
     <MESSAGE value="Task game2048" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task game2048" />
+    <MESSAGE value="Task game2048(7)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task game2048(7)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1036,43 +1049,38 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Game2048.java</url>
-          <line>69</line>
+          <line>66</line>
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Game2048.java</url>
-          <line>70</line>
+          <line>67</line>
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Game2048.java</url>
-          <line>72</line>
+          <line>69</line>
           <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Game2048.java</url>
-          <line>73</line>
+          <line>70</line>
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Game2048.java</url>
-          <line>71</line>
+          <line>68</line>
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Game2048.java</url>
-          <line>74</line>
+          <line>71</line>
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Game2048.java</url>
-          <line>76</line>
+          <line>73</line>
           <option name="timeStamp" value="71" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Game2048.java</url>
-          <line>84</line>
-          <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task29/task2910/Game.java</url>

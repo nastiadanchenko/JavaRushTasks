@@ -9,7 +9,7 @@ public class Game2048 extends Game {
 
     @Override
     public void initialize() {
-        setScreenSize(SIDE,SIDE);
+        setScreenSize(SIDE, SIDE);
         createGame();
         drawScene();
     }
@@ -18,10 +18,11 @@ public class Game2048 extends Game {
         createNewNumber();
         createNewNumber();
     }
-    private void drawScene(){
-        for (int x = 0; x <gameField.length ; x++) {
-            for (int y = 0; y <gameField.length ; y++) {
-                setCellColoredNumber(x,y,gameField[y][x]);
+
+    private void drawScene() {
+        for (int x = 0; x < gameField.length; x++) {
+            for (int y = 0; y < gameField.length; y++) {
+                setCellColoredNumber(x, y, gameField[y][x]);
             }
         }
     }
@@ -38,30 +39,45 @@ public class Game2048 extends Game {
         }
         while (!isCreated);
     }
-    private Color getColorByValue(int value){
-        switch (value){
-            case 0: return Color.WHEAT;
-            case 2: return Color.BLUE;
-            case 4: return Color.AQUA;
-            case 8: return Color.GREEN;
-            case 16: return Color.GRAY;
-            case 32: return Color.BROWN;
-            case 64: return Color.CORAL;
-            case 128: return Color.DEEPPINK;
-            case 256: return Color.FUCHSIA;
-            case 512: return Color.HONEYDEW;
-            case 1024: return Color.INDIGO;
-            case 2048: return Color.LAVENDER;
-            default:return Color.NONE;
+
+    private Color getColorByValue(int value) {
+        switch (value) {
+            case 0:
+                return Color.WHEAT;
+            case 2:
+                return Color.BLUE;
+            case 4:
+                return Color.AQUA;
+            case 8:
+                return Color.GREEN;
+            case 16:
+                return Color.GRAY;
+            case 32:
+                return Color.BROWN;
+            case 64:
+                return Color.CORAL;
+            case 128:
+                return Color.DEEPPINK;
+            case 256:
+                return Color.FUCHSIA;
+            case 512:
+                return Color.HONEYDEW;
+            case 1024:
+                return Color.INDIGO;
+            case 2048:
+                return Color.LAVENDER;
+            default:
+                return Color.NONE;
         }
     }
 
-    private void setCellColoredNumber(int x, int y, int value){
+    private void setCellColoredNumber(int x, int y, int value) {
         Color color = getColorByValue(value);
         String str = value > 0 ? "" + value : "";
         setCellValueEx(x, y, color, str);
     }
-    private boolean compressRow(int[] row){
+
+    private boolean compressRow(int[] row) {
         boolean isCompress = false;
         int index = 0;
         for (int x = 0; x < SIDE; x++) {
@@ -77,5 +93,21 @@ public class Game2048 extends Game {
         return isCompress;
     }
 
+    private boolean mergeRow(int[] row) {
+        boolean result = false;
+        int sum = 0;
+        for (int i = 0; i < row.length - 1; i++) {
+            if (row[i] > 0) {
+                if (row[i] == row[i + 1]) {
+                    sum = row[i] + row[i + 1];
+                    row[i] = sum;
+                    row[i + 1] = 0;
+                    result = true;
+                }
+            }
+        }
+
+        return result;
+    }
 }
 
