@@ -131,12 +131,28 @@ public class Game2048 extends Game {
     }
 
     private void moveUp() {
+        for (int i = 0; i <4 ; i++) {
+            if (i==3)  moveLeft();
+            rotateClockwise();
+
+        }
     }
 
     private void moveDown() {
+        for (int i = 0; i <4 ; i++) {
+            if (i==1)  moveLeft();
+            rotateClockwise();
+
+        }
     }
 
     private void moveRight() {
+        for (int i = 0; i <4 ; i++) {
+            if (i==2)  moveLeft();
+            rotateClockwise();
+
+        }
+
     }
 
     private void moveLeft() {
@@ -154,6 +170,15 @@ public class Game2048 extends Game {
         if (isNewNumberNeeded) {
             createNewNumber();
         }
+    }
+    private void rotateClockwise(){
+        int[][] result = new int[SIDE][SIDE];
+        for (int i = 0; i <SIDE ; i++) {
+            for (int j = 0; j <SIDE ; j++) {
+                result[j][SIDE-1-i] = gameField[i][j];
+            }
+        }
+        gameField = result;
     }
 }
 
