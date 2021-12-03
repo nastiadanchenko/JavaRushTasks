@@ -7,6 +7,8 @@ import com.javarush.engine.cell.Key;
 public class Game2048 extends Game {
     private static final int SIDE = 4;
     private int[][] gameField = new int[SIDE][SIDE];
+    private boolean isGameStopped = false;
+    private int score;
 
     @Override
     public void initialize() {
@@ -16,8 +18,11 @@ public class Game2048 extends Game {
     }
 
     private void createGame() {
+        gameField = new int[SIDE][SIDE];
+        score = 0;
         createNewNumber();
         createNewNumber();
+
     }
 
     private void drawScene() {
@@ -29,6 +34,10 @@ public class Game2048 extends Game {
     }
 
     private void createNewNumber() {
+        if (getMaxTileValue() >= 2048) {
+            win();
+            return;
+        }
         boolean isCreated = false;
         do {
             int x = getRandomNumber(SIDE);
@@ -39,6 +48,11 @@ public class Game2048 extends Game {
             }
         }
         while (!isCreated);
+    }
+
+    private void win() {
+        showMessageDialog(Color.GREEN, "You win", Color.BLACK, 75);
+        isGameStopped = true;
     }
 
     private Color getColorByValue(int value) {
@@ -104,6 +118,7 @@ public class Game2048 extends Game {
                     row[i] = sum;
                     row[i + 1] = 0;
                     result = true;
+                    setScore(score += sum);
                 }
             }
         }
@@ -112,43 +127,50 @@ public class Game2048 extends Game {
 
     @Override
     public void onKeyPress(Key key) {
+        if (isGameStopped) {
+            if (key == Key.SPACE) {
+                isGameStopped = false;
+                createGame();
+                setScore(score);
+                drawScene();
+            } else return;
+        }
+        if (!canUserMove()) {
+            gameOver();
+            return;
+        }
         if (key == Key.LEFT) {
             moveLeft();
-            drawScene();
-        }
-        if (key == Key.RIGHT) {
+        } else if (key == Key.RIGHT) {
             moveRight();
-            drawScene();
-        }
-        if (key == Key.UP) {
+        } else if (key == Key.UP) {
             moveUp();
-            drawScene();
-        }
-        if (key == Key.DOWN) {
+        } else if (key == Key.DOWN) {
             moveDown();
-            drawScene();
-        }
+        } else return;
+
+        drawScene();
     }
 
     private void moveUp() {
-        for (int i = 0; i <4 ; i++) {
-            if (i==3)  moveLeft();
+        for (int i = 0; i < 4; i++) {
+            if (i == 3) moveLeft();
             rotateClockwise();
 
         }
     }
 
     private void moveDown() {
-        for (int i = 0; i <4 ; i++) {
-            if (i==1)  moveLeft();
+        for (int i = 0; i < 4; i++) {
+            if (i == 1) moveLeft();
             rotateClockwise();
 
         }
     }
 
     private void moveRight() {
-        for (int i = 0; i <4 ; i++) {
-            if (i==2)  moveLeft();
+        for (int i = 0; i < 4; i++) {
+            if (i == 2) moveLeft();
             rotateClockwise();
 
         }
@@ -171,14 +193,45 @@ public class Game2048 extends Game {
             createNewNumber();
         }
     }
-    private void rotateClockwise(){
+
+    private void rotateClockwise() {
         int[][] result = new int[SIDE][SIDE];
-        for (int i = 0; i <SIDE ; i++) {
-            for (int j = 0; j <SIDE ; j++) {
-                result[j][SIDE-1-i] = gameField[i][j];
+        for (int i = 0; i < SIDE; i++) {
+            for (int j = 0; j < SIDE; j++) {
+                result[j][SIDE - 1 - i] = gameField[i][j];
             }
         }
         gameField = result;
+    }
+
+    private int getMaxTileValue() {
+        int max = gameField[0][0];
+        for (int i = 0; i < gameField.length; i++) {
+            for (int j = 0; j < gameField.length; j++) {
+                if (gameField[i][j] > max) max = gameField[i][j];
+            }
+        }
+        return max;
+    }
+
+    private boolean canUserMove() {
+        for (int y = 0; y < SIDE; y++) {
+            for (int x = 0; x < SIDE; x++) {
+                if (gameField[y][x] == 0) {
+                    return true;
+                } else if (y < SIDE - 1 && gameField[y][x] == gameField[y + 1][x]) {
+                    return true;
+                } else if ((x < SIDE - 1) && gameField[y][x] == gameField[y][x + 1]) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    private void gameOver() {
+        showMessageDialog(Color.RED, "You over!", Color.BLACK, 75);
+        isGameStopped = true;
     }
 }
 
