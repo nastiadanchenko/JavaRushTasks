@@ -22,13 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d86342d6-0860-464b-aa19-ae35b4b1a37b" name="Default" comment="Task game2048(11-12)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Game2048.java" beforeDir="false" afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Game2048.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Условие.jrtc" beforeDir="false" afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/game2048/Условие.jrtc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaRushPlugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JavaRushPlugin.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out.log" beforeDir="false" afterPath="$PROJECT_DIR$/out.log" afterDir="false" />
-    </list>
+    <list default="true" id="d86342d6-0860-464b-aa19-ae35b4b1a37b" name="Default" comment="Task game2048(13-18)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -630,7 +624,7 @@
       <workItem from="1638348374742" duration="1013000" />
       <workItem from="1638349513471" duration="544000" />
       <workItem from="1638433696759" duration="5022000" />
-      <workItem from="1638514891228" duration="1714000" />
+      <workItem from="1638514891228" duration="2504000" />
     </task>
     <task id="LOCAL-00001" summary="Task 3902">
       <created>1627589354248</created>
@@ -919,7 +913,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638436508313</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Task game2048(13-18)">
+      <created>1638518056632</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1638518056632</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Task game2048(13-18)">
+      <created>1638518065414</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1638518065414</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -947,7 +955,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Task 4004 use class Polygon" />
     <MESSAGE value="Task 3410(1) add classes Model,View,Controller" />
     <MESSAGE value="Task 3410(2) add class GameObject" />
     <MESSAGE value="Task 3410(4) add class CollisionObject, Direction" />
@@ -972,7 +979,8 @@
     <MESSAGE value="Task game2048(9)" />
     <MESSAGE value="Task game2048(10)" />
     <MESSAGE value="Task game2048(11-12)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task game2048(11-12)" />
+    <MESSAGE value="Task game2048(13-18)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task game2048(13-18)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

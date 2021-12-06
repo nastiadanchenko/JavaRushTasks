@@ -46192,3 +46192,103 @@ Caused by: java.io.IOException: Удаленный хост принудител
 2021-12-03 12:53:28 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
 2021-12-03 12:53:29 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
 2021-12-03 12:53:29 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Projects/JavaRushTasks/8.Games/src/com/javarush/games/spaceinvaders
+2021-12-03 12:56:12 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2021-12-03 12:56:12 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-03 12:56:12 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-03 12:56:13 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-03 12:56:13 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-03 12:56:13 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-03 12:56:13 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2021-12-06 14:25:36 INFO  PluginProjectService.<init>(33) - PluginProjectService for JavaRushTasks initiated.
+2021-12-06 14:25:39 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-06 14:25:39 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2021-12-06 14:25:39 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2021-12-06 14:25:39 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.54 ----------
+
+2021-12-06 14:25:39 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.54 ----------
+
+2021-12-06 14:25:39 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-12-06 14:25:39 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-12-06 14:25:39 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2021-12-06 14:25:39 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2021-12-06 14:25:39 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2021-12-06 14:25:39 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2021-12-06 14:25:39 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2021-12-06 14:25:39 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2021-12-06 23:13:51 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-06 23:13:51 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-06 23:13:51 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-06 23:13:51 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-06 23:13:54 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-06 23:13:54 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-06 23:13:54 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-06 23:13:54 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-06 23:14:03 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-06 23:14:03 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-06 23:14:03 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-06 23:14:03 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-06 23:14:08 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-06 23:14:08 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-06 23:14:09 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-06 23:14:09 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-06 23:39:22 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-06 23:39:22 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-06 23:39:23 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-06 23:39:23 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-06 23:39:28 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-06 23:39:28 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-06 23:39:28 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-06 23:39:28 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-06 23:39:33 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-06 23:39:33 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-06 23:39:34 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-06 23:39:34 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-06 23:39:36 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-06 23:39:36 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-06 23:39:36 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-06 23:39:36 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-06 23:47:24 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-06 23:47:24 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-06 23:47:24 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-06 23:47:24 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-06 23:47:25 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-06 23:47:25 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-06 23:48:28 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-06 23:48:28 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-06 23:48:28 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-06 23:48:28 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-06 23:48:35 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-06 23:48:35 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-06 23:48:35 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-06 23:48:35 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-06 23:49:25 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-06 23:49:25 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-06 23:49:26 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-06 23:49:26 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-06 23:49:28 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-06 23:49:28 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-06 23:49:28 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-06 23:49:28 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-07 00:16:54 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-07 00:16:54 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-07 00:16:55 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-07 00:16:55 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-07 00:17:01 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-07 00:17:01 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-07 00:17:18 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-07 00:17:18 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-07 00:17:19 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-07 00:17:19 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-07 00:17:28 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-07 00:17:28 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-07 00:17:29 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-07 00:17:29 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-07 00:17:39 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-07 00:17:39 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-07 00:17:39 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-07 00:17:39 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-07 00:17:42 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-07 00:17:42 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-07 00:17:42 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-07 00:17:42 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
