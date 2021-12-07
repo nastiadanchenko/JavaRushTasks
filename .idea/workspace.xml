@@ -22,7 +22,63 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d86342d6-0860-464b-aa19-ae35b4b1a37b" name="Default" comment="Task game2048(13-18)" />
+    <list default="true" id="d86342d6-0860-464b-aa19-ae35b4b1a37b" name="Default" comment="Task gameSpaceInvaders (1-4)">
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/query/DateQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/query/EventQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/query/QLQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/query/UserQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s1/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s1/LogParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s1/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s1/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s1/logs/example.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s1/query/DateQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s1/query/IPQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s1/query/UserQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s2/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s2/LogParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s2/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s2/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s2/logs/example.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s2/query/DateQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s2/query/IPQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s2/query/UserQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s3/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s3/LogParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s3/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s3/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s3/logs/example.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s3/query/DateQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s3/query/IPQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s3/query/UserQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s3/Условие.jrtc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s4/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s4/LogParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s4/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s4/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s4/logs/example.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s4/query/DateQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s4/query/EventQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s4/query/IPQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s4/query/QLQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s4/query/UserQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s4/Условие.jrtc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s5/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s5/LogParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s5/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s5/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s5/logs/example.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s5/query/DateQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s5/query/EventQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s5/query/IPQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s5/query/QLQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s5/query/UserQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/LogParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/LogParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/Условие.jrtc" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/Условие.jrtc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaRushPlugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JavaRushPlugin.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out.log" beforeDir="false" afterPath="$PROJECT_DIR$/out.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,8 +100,8 @@
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -92,7 +148,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last.edited.regexp" value="Sample Text" />
-    <property name="last_opened_file_path" value="$PATH_TO_FX$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task39/task3913/s5" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -111,6 +167,18 @@
       <recent name="com.javarush.task.task30.task3003" />
       <recent name="com.javarush.task.task30.task3004" />
       <recent name="com.javarush.task.task14.task1408" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\JavaRushTasks\4.JavaCollections\src\com\javarush\task\task39\task3913\s5" />
+      <recent name="C:\Projects\JavaRushTasks\4.JavaCollections\src\com\javarush\task\task39\task3913\s4" />
+      <recent name="C:\Projects\JavaRushTasks\4.JavaCollections\src\com\javarush\task\task39\task3913\s3" />
+      <recent name="C:\Projects\JavaRushTasks\4.JavaCollections\src\com\javarush\task\task39\task3913\s2" />
+      <recent name="C:\Projects\JavaRushTasks\4.JavaCollections\src\com\javarush\task\task39\task3913\s1" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.javarush.task.task39.task3913.s3" />
+      <recent name="com.javarush.task.task39.task3913.s2" />
+      <recent name="com.javarush.task.task39.task3913.s1" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Game2048">
@@ -625,6 +693,12 @@
       <workItem from="1638349513471" duration="544000" />
       <workItem from="1638433696759" duration="5022000" />
       <workItem from="1638514891228" duration="2504000" />
+      <workItem from="1638782738484" duration="8435000" />
+      <workItem from="1638897480914" duration="675000" />
+      <workItem from="1638898276608" duration="240000" />
+      <workItem from="1638898550366" duration="1035000" />
+      <workItem from="1638899655660" duration="925000" />
+      <workItem from="1638900635987" duration="2017000" />
     </task>
     <task id="LOCAL-00001" summary="Task 3902">
       <created>1627589354248</created>
@@ -927,7 +1001,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638518065414</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Task gameSpaceInvaders (1-4)">
+      <created>1638818388297</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1638818388298</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -955,7 +1036,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Task 3410(1) add classes Model,View,Controller" />
     <MESSAGE value="Task 3410(2) add class GameObject" />
     <MESSAGE value="Task 3410(4) add class CollisionObject, Direction" />
     <MESSAGE value="Task 3410(5) add class Box,Player" />
@@ -980,7 +1060,8 @@
     <MESSAGE value="Task game2048(10)" />
     <MESSAGE value="Task game2048(11-12)" />
     <MESSAGE value="Task game2048(13-18)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task game2048(13-18)" />
+    <MESSAGE value="Task gameSpaceInvaders (1-4)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task gameSpaceInvaders (1-4)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

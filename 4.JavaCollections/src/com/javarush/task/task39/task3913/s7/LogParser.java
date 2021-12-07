@@ -1,6 +1,6 @@
-package com.javarush.task.task39.task3913;
+package com.javarush.task.task39.task3913.s7;
 
-import com.javarush.task.task39.task3913.query.*;
+import com.javarush.task.task39.task3913.s7.query.*;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
