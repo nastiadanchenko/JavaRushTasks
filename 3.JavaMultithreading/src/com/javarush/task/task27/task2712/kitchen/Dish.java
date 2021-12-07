@@ -1,31 +1,32 @@
 package com.javarush.task.task27.task2712.kitchen;
 
-import java.util.Arrays;
-
-/**
- * Created by User on 26.09.2020.
- */
 public enum Dish {
-
-    Fish(25), Steak(30), Soup(15), Juice(5), Water(3);
+    FISH(25),
+    STEAK(30),
+    SOUP(15),
+    JUICE(5),
+    WATER(3);
 
     private int duration;
-
-
-
-    Dish(int i) {
-        this.duration = i;
-    }
 
     public int getDuration() {
         return duration;
     }
 
-    public static String allDishesToString(){
-
-        return Arrays.toString(Dish.values());
-
+    Dish(int duration) {
+        this.duration = duration;
     }
 
+    public static String allDishesToString() {
+        String result = "";
 
+        for (Dish dish : Dish.values()) {
+            if ("".equals(result)) {
+                result += dish.name();
+            } else {
+                result += ", " + dish.name();
+            }
+        }
+        return result;
+    }
 }
