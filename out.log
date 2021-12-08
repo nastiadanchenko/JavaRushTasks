@@ -47665,3 +47665,8 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -1
 2021-12-08 13:36:27 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
 2021-12-08 13:36:39 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
 2021-12-08 13:36:39 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-08 13:36:55 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-08 13:36:57 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-08 13:37:05 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-08 13:37:06 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-08 13:37:07 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Projects/JavaRushTasks/8.Games/src/com/javarush/games/racer/road
