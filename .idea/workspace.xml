@@ -22,8 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d86342d6-0860-464b-aa19-ae35b4b1a37b" name="Default" comment="Game Moon Lander (23)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d86342d6-0860-464b-aa19-ae35b4b1a37b" name="Default" comment="Task 1632">
+      <change beforePath="$PROJECT_DIR$/JavaRushPlugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JavaRushPlugin.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out.log" beforeDir="false" afterPath="$PROJECT_DIR$/out.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -649,13 +649,7 @@
       <workItem from="1638910080717" duration="4462000" />
       <workItem from="1638950708935" duration="5606000" />
       <workItem from="1639130354126" duration="26000" />
-    </task>
-    <task id="LOCAL-00044" summary="Task gameSpaceInvaders (1-4)">
-      <created>1638818388297</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1638818388298</updated>
+      <workItem from="1639130405131" duration="495000" />
     </task>
     <task id="LOCAL-00045" summary="Task3913 parserLog">
       <created>1638903264727</created>
@@ -993,7 +987,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638954408748</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="Task 1632">
+      <created>1639130664425</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1639130664426</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1021,7 +1022,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Game racer (27)" />
     <MESSAGE value="Game racer (28)" />
     <MESSAGE value="Game Moon Lander (1)" />
     <MESSAGE value="Game Moon Lander (2)" />
@@ -1046,7 +1046,8 @@
     <MESSAGE value="Game Moon Lander (21)" />
     <MESSAGE value="Game Moon Lander (22)" />
     <MESSAGE value="Game Moon Lander (23)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Game Moon Lander (23)" />
+    <MESSAGE value="Task 1632" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 1632" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
